@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=rmg
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-rmg
+Description: Finite-state language processing tools for Traveller Norwegian
+URL: https://giellalt.uit.no/index.html
+Version: @VERSION@

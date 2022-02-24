@@ -1,0 +1,10 @@
+template = ""
+rev_id = 88
+template_sha = "63761b0f7e23e18e20ef131624577f9af069774a"
+
+[replacements]
+__LICENSE__ = "LGPLv3"
+__REPO__ = "lang-rmg"
+__UND2C__ = "rmg"
+__UNDEFINED__ = "Traveller Norwegian"
+__UND__ = "rmg"
