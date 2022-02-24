@@ -25,7 +25,6 @@ Accuracy](https://img.shields.io/badge/Speller_Accuracy-XX_%25-green.svg)](https
 graph](https://giellalt.github.io/lang-rmg/speller-report.svg)](https://giellalt.github.io/lang-rmg/speller-report.svg)
 
 
-
 Documentation
 -------------
 
