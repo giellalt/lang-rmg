@@ -1,0 +1,291 @@
+
+LEXICON adv
++Adv: # ;
+
+LEXICON cs
++CS: # ;
+
+LEXICON cc
++CC: # ;
+
+LEXICON pr
++Pr: # ;
+
+LEXICON vaux
++V+Inf: # ;
+
+LEXICON ij
++Interj: # ;
+
+LEXICON Adverbs
+ehe ij "ja" ;
+ali f1 "vindu" ; 
+ali m1 "vindu" ; 
+ali-jakk m1 "brille, lupe" ;
+alonom adv "aleine" ; 
+andri pr "i" ; 
+andri-dikkar m2 "TV, fjernsyn" ;
+ann pr "i" ;
+Anna prop-fem ;
+apparat n ;
+appelsin n ;
+asja vaux "være" ; 
+at cs ;
+før pr ;
+av pr "av" ; ! ta
+avri adv "ut, ute, utanfor" ; 
+ball m2 ;
+ball-kast m2 ; 
+bare adv ;
+!beholder
+!bensin, bensina
+!Betel
+!blad: karva blad
+!bli
+!blomster
+!blåser
+!bortri bort til
+!bremser
+!bronkitt
+!bronsje
+!Buick, Buicken
+!bæsja ? besja
+!både
+!campingplasser
+!da
+!den
+!der
+dikka v1 "se" ;
+
+!dress, dressen
+dråvont a1 "tung, hard, vanskelig, sørgelig" ;
+!dukt vondt
+!dusj
+!dyra
+!dy–trinn to–tre, et par 
+!ehe ja
+!ei
+!eksem, eksemen
+!elektrisk
+eller cc ;
+!enn
+fann pr "fra" ; 
+februar mx ;
+!feiekost
+!fele
+!for
+!fordi
+!fra
+fulanot a1 "skitten, sølete; ussel, elendig" ;
+færnissa v1 "ønske, ville, ha lyst til" ;
+!født
+!før
+førtus pr "før" ;
+!gaflar
+gana+N+Pl:gana # "folk, folka" ; ! morfologi?
+!gang
+!garnnøste
+!gass
+!godterier
+grammofon m1 ;
+!granbar, granbaret
+!grønne, grønt
+!Harry
+!hautus: i uttrykket ava i hautus komme i hu, huske 
+!hei
+helko a1 "hel, hele, all, alt, alle, hver" ; 
+hjul n ;
+trampar-hjul n ;
+!ho
+hoppa v1 ;
+!hva
+!hver
+!hvis
+!hvor
+!høsten
+!håndtak, håndtaket
+i pr "i" ;
+ifann adv "ifra" ; 
+ipali adv "igjen" ;
+ka v2 "ete, spise" ; 
+!kakken
+!kalmerot
+!kalmusrot
+kalsing m2 "sko" ;
+!kan
+Karl prop-mal ;
+Karoline prop-fem ;
+kartli f1 "førekort" ;
+!karva blad
+!kass ? kasj
+kava pers "han, hun; de" ; 
+kei adv "her" ;
+!keral ? tjeral
+kettanes adv "sammen" ; 
+kilometer m1 ;
+!kjerringråd
+!kobberstykke, kobberstykket
+!krokane
+kunnfara v1 "kunne" ;
+kusj a1 "dyr, kostbar" ;
+!kvise, kvisa
+!kysten
+!lag, laga, laget
+!le kettanes sette sammen 
+!lek
+!lekar
+!likevel
+!lim
+!lindra
+!liter
+!loddetinn
+!loviar pl penger 
+!lynet
+!låsar
+låsjano a1 "glad, kvikk, lystig, stolt" ;
+!malekostar
+!mange
+!manus ~ manusj pl folk
+!Marie
+!mark, marken
+!marked
+!med
+!middelalderen
+!minutt
+!modell
+!moro
+!mot
+!mul: i mul ~ ann mul i hjel 
+!musikk
+!mygg, myggen
+!myrer
+!myrområder
+!møøøø
+!måtte
+!neie
+nekkli adv "ned; bort, borte" ;
+!nerven
+!nesten
+!nikkers
+ninna adv "da, når, så, nå, med" ; 
+!nerven
+!noe, noen
+!nord
+!Norge
+!norske
+!nyrene
+!ofte
+!også
+!om
+!omtus om
+oppri a1 "opp, oppi, oppå; åpen" ;
+oppri-kadd a1 "avgnagd" ; 
+!oppvaskmaskin
+pali pr "etter, bak, baki; tilbake" ;
+pali-pre adv "etterpå" ;
+!parafin
+penja f2 "(pl penjar) søster" ; 
+!plast, plasten
+!plater
+!platespilleren
+!plutselig
+!pori tagl, hestetagl
+pre pr "på, hos" ;
+!primus, primusen
+!prinsessen
+!pultost
+!pumpe, pumpa
+!purroane: dåva purroane de voksne 
+!ral: pre ral på kroken
+rani f1 "dame, frue" ;
+!rart
+!rattet
+!reiva
+!rota
+!rødt
+!salmiakk
+sambuna m3 "pipe" ;
+!samtus sammen med 
+sass a1 "all, alt, alle; hver" ; 
+sastot adv "alltid" ;
+savo adv "slik, sånn" ;
+!seg
+sikto cs "som, slik som, lik" ;
+!sil
+!sirkusgraner
+!sirup
+!sisten
+sjak adv "sånn, slik" ; 
+!skal
+!skjøtane
+!skruar
+!skulle
+!slede
+!sluffe
+!snei
+!solus sjøl 
+som cs "som" ;
+!spekebeinet
+!spist
+ste v2 "stå" ;
+!stikkball
+!strek, streken
+!strikk
+!styggpakk
+!sveiv, sveiva
+!sving
+!synes
+!særgan ? sargan
+!Sør-Norge
+så cs ;
+T-Ford prop-obj ;
+tabbrar pl "fyrstikker" ;
+!tagl
+!takrennene, takrenner
+!tangentene
+!tater
+!Tater-Marie
+!taurus-renner takrenner
+te pr "til" ;
+teli adv "ned, nede, ned i, ned på, nedover" ;
+tellan pr "under" ;
+tellan-håfsi f "(pl tellan-håfsiar) underbukse" ;
+tepali adv "tilbake" ;
+tepallan adv "tilbake" ;
+!til = te
+!timer
+tjavosjke-drabbrar m2 "lærer (“barnelærer”)" ; 
+tjeri adv "hjem, hjemme" ; 
+!tjettanes ? kettanes
+tji adv "ikke" ; 
+!tjil ? kil
+!tjino ? kino
+!tjylmano ? tjulmano
+to pr "til" ;
+topallan adv "tilbake" ;
+!tordna
+!tralla
+!trekkspill, trekkspillet
+tromma v1 "tore, tørre, våge" ;
+!TV
+untus adv "unna" ;
+!urteplante
+!urter
+vago adv "før, føre, framme; a1 først; forrige" ; 
+!vagot fram
+!var
+!varsja regn
+!ved
+!vers
+!Vestlandet
+!Vilhelm
+!ville
+!visper, vispar, vispane
+våddro-isar:våddro-is m1pl "sengklær" ; 
+!våltna: bute våltna hele tida 
+!øre
+!ørret
+!øser
+!Østen
+!Østlandet
+å cc "og" ;
