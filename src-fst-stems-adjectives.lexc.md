@@ -1,5 +1,5 @@
 Adjectives
-Adjectives in the Traveller Norwegian language describe things.
+Adjectives in the Balkan Romani language describe things.
 
 * * *
 

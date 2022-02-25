@@ -1,5 +1,5 @@
 Proper noun inflection
-The Traveller Norwegian language proper nouns inflect in the same cases as regular
+The Balkan Romani language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
 * * *

@@ -1,17 +1,6 @@
 =================================== !
-The Traveller Norwegian morphophonological/twolc rules file !
+The Balkan Romani morphophonological/twolc rules file !
 =================================== !
-
-* *primus%>s*
-* *primus00*
-
-* examples:*
-
-* examples:*
-
-* examples:*
-
-* examples:*
 
 * * *
 

@@ -1,5 +1,5 @@
 Numerals
-Numerals in the Traveller Norwegian language are numbers.
+Numerals in the Balkan Romani language are numbers.
 
 * * *
 

@@ -1,5 +1,5 @@
 Pronouns
-Pronouns in the Traveller Norwegian language are references to things.
+Pronouns in the Balkan Romani language are references to things.
 
 * * *
 

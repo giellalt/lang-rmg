@@ -1,5 +1,5 @@
 Verb inflection
-The Traveller Norwegian language verbs inflect in persons.
+The Balkan Romani language verbs inflect in persons.
 
 * * *
 

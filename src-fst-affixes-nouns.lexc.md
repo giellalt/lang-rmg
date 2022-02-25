@@ -1,5 +1,5 @@
 Noun inflection
-The Traveller Norwegian language nouns inflect in cases.
+The Balkan Romani language nouns inflect in cases.
 
 * * *
 

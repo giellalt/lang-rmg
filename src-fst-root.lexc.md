@@ -1,10 +1,10 @@
 
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Traveller Norwegian LANGUAGE.
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Balkan Romani, arli
 
 # Definitions for Multichar_Symbols
 
 ## Analysis symbols
-The morphological analyses of wordforms for the Traveller Norwegian
+The morphological analyses of wordforms for the Romany
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
@@ -70,7 +70,7 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-The word forms in Traveller Norwegian language start from the lexeme roots of basic
+The word forms in Romany language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 * * *

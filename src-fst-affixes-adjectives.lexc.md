@@ -1,5 +1,5 @@
 Adjective inflection
-The Traveller Norwegian language adjectives compare.
+The Balkan Romani language adjectives compare.
 
 * * *
 

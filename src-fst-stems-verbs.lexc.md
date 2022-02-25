@@ -1,5 +1,5 @@
 Verbs
-Verbs in the Traveller Norwegian language are actions.
+Verbs in the Balkan Romani language are actions.
 
 * * *
 

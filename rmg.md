@@ -3,7 +3,7 @@
 All documents in one file
 
 Adjective inflection
-The Traveller Norwegian language adjectives compare.
+The Balkan Romani language adjectives compare.
 
 * * *
 
@@ -12,7 +12,7 @@ The Traveller Norwegian language adjectives compare.
 ---
 
 Noun inflection
-The Traveller Norwegian language nouns inflect in cases.
+The Balkan Romani language nouns inflect in cases.
 
 * * *
 
@@ -21,7 +21,7 @@ The Traveller Norwegian language nouns inflect in cases.
 ---
 
 Proper noun inflection
-The Traveller Norwegian language proper nouns inflect in the same cases as regular
+The Balkan Romani language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
 * * *
@@ -40,7 +40,7 @@ nouns, but with a colon (':') as separator.
 ---
 
 Verb inflection
-The Traveller Norwegian language verbs inflect in persons.
+The Balkan Romani language verbs inflect in persons.
 
 * * *
 
@@ -49,19 +49,8 @@ The Traveller Norwegian language verbs inflect in persons.
 ---
 
 =================================== !
-The Traveller Norwegian morphophonological/twolc rules file !
+The Balkan Romani morphophonological/twolc rules file !
 =================================== !
-
-* *primus%>s*
-* *primus00*
-
-* examples:*
-
-* examples:*
-
-* examples:*
-
-* examples:*
 
 * * *
 
@@ -70,12 +59,12 @@ The Traveller Norwegian morphophonological/twolc rules file !
 ---
 
 
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Traveller Norwegian LANGUAGE.
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Balkan Romani, arli
 
 # Definitions for Multichar_Symbols
 
 ## Analysis symbols
-The morphological analyses of wordforms for the Traveller Norwegian
+The morphological analyses of wordforms for the Romany
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
@@ -141,7 +130,7 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-The word forms in Traveller Norwegian language start from the lexeme roots of basic
+The word forms in Romany language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 * * *
@@ -151,7 +140,7 @@ word classes, or optionally from prefixes:
 ---
 
 Adjectives
-Adjectives in the Traveller Norwegian language describe things.
+Adjectives in the Balkan Romani language describe things.
 
 * * *
 
@@ -160,7 +149,7 @@ Adjectives in the Traveller Norwegian language describe things.
 ---
 
 Nouns
-Nouns in the Traveller Norwegian language are things.
+Nouns in the Balkan Romani language are things.
 
 * * *
 
@@ -169,7 +158,7 @@ Nouns in the Traveller Norwegian language are things.
 ---
 
 Numerals
-Numerals in the Traveller Norwegian language are numbers.
+Numerals in the Balkan Romani language are numbers.
 
 * * *
 
@@ -178,7 +167,7 @@ Numerals in the Traveller Norwegian language are numbers.
 ---
 
 Prefixes
-Prefixes in the Traveller Norwegian language are bound to beginning of other words.
+Prefixes in the Balkan Romani language are bound to beginning of other words.
 
 * * *
 
@@ -187,7 +176,7 @@ Prefixes in the Traveller Norwegian language are bound to beginning of other wor
 ---
 
 Pronouns
-Pronouns in the Traveller Norwegian language are references to things.
+Pronouns in the Balkan Romani language are references to things.
 
 * * *
 
@@ -196,7 +185,7 @@ Pronouns in the Traveller Norwegian language are references to things.
 ---
 
 Verbs
-Verbs in the Traveller Norwegian language are actions.
+Verbs in the Balkan Romani language are actions.
 
 * * *
 

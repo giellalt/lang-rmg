@@ -1,5 +1,5 @@
 Nouns
-Nouns in the Traveller Norwegian language are things.
+Nouns in the Balkan Romani language are things.
 
 * * *
 
