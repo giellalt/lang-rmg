@@ -1,15 +1,72 @@
 !! Noun inflection
 !  ---------------
-!! The Traveller Norwegian language nouns inflect in cases.
+!! The Balkan Romani language nouns inflect in cases.
 
-LEXICON Cases
- +N+Sg+nom:0   #     ;
- +N+Pl+nom:i   #     ;
- +N+Sg+loc:as  #     ;
- +N+Pl+loc:ias #     ;
- +N+Sg+acc:at  #     ;
- +N+Pl+acc:iat #     ;
-         #:0   Nouns ;
+LEXICON mx
++N: # ;
+
+LEXICON f1m2
+m2 ;
+f1 ;
+
+LEXICON f1m1
+f1 ;
+m1 ;
+
+LEXICON f
+f2 ;
+
+LEXICON pl
++N+Pl: # ;
+
+LEXICON m1
++N+Msc+Sg+Indef: # ;
++N+Msc+Sg+Def:%>n # ;
++N+Msc+Pl+Indef:%>ar # ;
++N+Msc+Pl+Def:%>ane # ;
+
+LEXICON m1pl
++N+Msc+Pl+Indef:%>ar # ;
++N+Msc+Pl+Def:%>ane # ;
+
+LEXICON m2
++N+Msc+Sg+Indef: # ;
++N+Msc+Sg+Def:%>en # ;
++N+Msc+Pl+Indef:%>ar # ;
++N+Msc+Pl+Def:%>ane # ;
+
+LEXICON m3
++N+Msc+Sg+Indef: # ;
++N+Msc+Sg+Def:%>n # ;
++N+Msc+Pl+Indef:%>r # ;
++N+Msc+Pl+Def:%>ne # ;
+
+LEXICON m4
++N+Msc+Sg+Indef: # ;
++N+Msc+Sg+Def:%>n # ;
++N+Msc+Pl+Indef:%>ar # ;
++N+Msc+Pl+Def:%>ane # ;
+
+LEXICON f1
++N+Fem+Sg+Indef: # ;
++N+Fem+Sg+Def:%>a # ;
++N+Fem+Pl+Indef:%>ar # ;
++N+Fem+Pl+Def:%>ane # ;
+
+LEXICON f2
++N+Fem+Sg+Indef: # ;
++N+Fem+Sg+Def:%>a # ;
++N+Fem+Pl+Indef:%>er # ;
++N+Fem+Pl+Def:%>ane # ;
+
+LEXICON n
++N+Neu+Sg+Indef: # ;
++N+Neu+Sg+Def:%>e # ;
++N+Neu+Pl+Indef:%> # ;
++N+Neu+Pl+Def:%>a # ;
++N+Neu+Pl+Def:%>ane # ; ! xxx Rolf blattnane
+
+
 
 ! vim: set ft=xfst-lexc:
 

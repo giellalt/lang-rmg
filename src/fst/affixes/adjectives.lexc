@@ -1,11 +1,23 @@
 !! Adjective inflection
 !  --------------------
-!! The Traveller Norwegian language adjectives compare.
+!! The Balkan Romani language adjectives compare.
 
-LEXICON Comparisons
-+A+pos:0        Cases   ;
-+A+cmp:er       Cases   ;
-+A+sup:est      Cases   ;
+LEXICON a1
++A+Pos+Sg:      #   ;
++A+Pos+Pl:%>e # ;
++A+Der/Adv+Adv:%>t # ;
+comp ;
+
+
+LEXICON a2
++A+Pos+Pl:%>a # ;
+a1 ;
+
+
+LEXICON comp
++Comp:%>are # ;
++Superl:%>ast # ;
++Superl+Def:%>aste # ;
 
 ! vim: set ft=xfst-lexc:
 

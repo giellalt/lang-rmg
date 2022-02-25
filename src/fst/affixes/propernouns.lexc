@@ -1,16 +1,17 @@
 !! Proper noun inflection
 !  ----------------------
-!! The Traveller Norwegian language proper nouns inflect in the same cases as regular
+!! The Balkan Romani language proper nouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
 
-LEXICON ProperNounCases
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-        -    Nouns  ;
+LEXICON prop-fem
++N+Prop+Sem/Fem: # ;
+LEXICON prop-mal
++N+Prop+Sem/Mal: # ;
+LEXICON prop-plc
++N+Prop+Sem/Plc: # ;
+LEXICON prop-obj
++N+Prop+Sem/Obj: # ;
+
 
 ! vim: set ft=xfst-lexc:
 

@@ -1,8 +1,82 @@
 !! Adjectives
 !  ----------
-!! Adjectives in the Traveller Norwegian language describe things.
+!! Adjectives in the Balkan Romani language describe things.
 
 LEXICON Adjectives
-adjective    Comparisons   ;
+latjo a1 "god" ;
+sjukkar a2 "fin" ;
+
+! sjukkar a2 "fin, pen. sjukkart fint, pent. sjukkre ~ sjukkra fine, pene" ;
+
+savo a1 "slik" ;
+norsk a2 "norsk" ;
+vavri a1 "annen" ;
+vaver a2 "annen" ;
+aven-dukkalo a1 "misunnelig " ;
+baro a1 "stor" ; 
+baro-kasjt m2 "stor-pinne" ; 
+baro-kårko m1 "jul" ; 
+basjtano a1 "streng; falsk, upålitelig " ;
+bengalo a1 "dum, gal, vill, ustyrlig " ;
+blavano a1 "blå" ;
+buno a1 "flott, fin; kry, stolt" ;
+but a1 "mange; mye; ofte; veldig " ;
+dommelak a1 "sliten, trøtt " ;
+drabbrano a1 "religiøs" ; 
+drabbrano-hisjpa m2 "bedehus" ;
+dukkalo a1 "syk " ;
+duri a1 "lang" ; 
+hårta a1 "ekte, verdifull; frisk, glad, bra, fin" ;
+jengno a1 "gift" ;
+jujo a1 "rein" ;
+kalo a1 "svart" ;
+kerja a1 "stygg, vond, dårlig, slem " ;
+kino a1 "trøtt, matt " ;
+kinto a1 "våt, blaut" ;
+langsto a1 "lang" ;
+leiano a1 "skamfull, flau" ;
+miak a1 "vond, smertefull" ;
+nevo a1 "ny" ;
+nevo-tjera a1 "nytrukket " ;
+nåsjlo a1 "dårlig; ille til mote, lei (for) " ;
+paksto a1 "feit, tjukk a" ;
+purrano a1 "gammal" ;
+purrano-dad m2 "bestefar" ; 
+purrano-dakri f1 "bestemor" ;
+pærlo a1 "hvit " ;
+rusjto a1 "sint" ;
+rusto a1 "sint" ;
+sano a1 "tynn, fin, grann" ;
+sigg a1 "rask, snar, fort; adv snart" ;
+sjukkalo a1 "sur" ; 
+sjukkalo-tudd m2 "surmelk, sur rømme" ;
+såralo a1 "sterk; beisk" ;
+sårralo a1 "sterk; beisk" ;
+tastro a1 "tørr" ;
+tatto a1 "varm" ;
+telo a1 "tidlig " ;
+tikkno a1 "liten" ;
+tikkno-kasjt m2 "pinne" ; 
+tikkno-pani f1 "bekk" ;
+tikkno-pani m1 "bekk" ;
+tikkno-pani n "bekk" ;
+tjatjo a1 "sann, viss" ;
+tjavo m1 "barn, unge" ;
+tjavo-dukkalo a1 "barnsjuk (om kvinne som skal føde)" ; 
+tjavo-døy f1 "jordmor" ; 
+tjavo-leiktar m1 "barneleik" ; 
+tjavo-mengar m1 "jordmor = tjavo-gaje" ; 
+tjavo-vårdri f1 "barnevogn" ;
+tjulmano a1 "kald" ;
+tjulmano a1 "kald" ;
+tjåralo a1 "fattig" ;
+trasj a1 "redd, engstelig; skummel, spennende; rar; ekkel " ;
+tråmo a1 "vanskelig" ;
+tærno a1 "ung" ;
+tåso a1 "tørr = tåstro" ;
+tåsjo a1 "tørr = tåstro" ;
+tåstro a1 "tørr = tåso" ;
+umala a1 "uenig, uvenner " ;
+valmus a1 "ferdig" ;
 
 ! vim: set ft=xfst-lexc:

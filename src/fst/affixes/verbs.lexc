@@ -1,16 +1,29 @@
 !! Verb inflection
 !  ---------------
-!! The Traveller Norwegian language verbs inflect in persons.
+!! The Balkan Romani language verbs inflect in persons.
 
-LEXICON Persons
-+V+1sg:en   #   ;
-+V+2sg:et   #   ;
-+V+3sg:e    #   ;
-+V+1pl:ien  #   ;
-+V+2pl:iet  #   ;
-+V+3pl:iet  #   ;
-+V+inf:0    #   ;
-#:0   Nouns   ;
+LEXICON v1
++V+Inf: # ;
++V+Prs:%>r # ;
++V+Prt: # ;
++V+PrfPrt: # ;
++V+PrsPrt:%>nes # ;
++V+Imp: # ;
 
+LEXICON v2
++V+Inf: # ;
++V+Prs:%>r # ;
++V+Prt:%>dde # ;
++V+PrfPrt:%>dd # ;
++V+PrsPrt:enes # ;
++V+Imp: # ;
+
+LEXICON v3
++V+Inf: # ;
++V+Prs: # ;
++V+Prt: # ;
++V+PrfPrt: # ;
++V+PrsPrt:%>enes # ;
++V+Imp: # ;
 ! vim: set ft=xfst-lexc:
 

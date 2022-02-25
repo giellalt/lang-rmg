@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for Traveller Norwegian language
+! Divvun & Giellatekno - open source grammars for Balkan Romani language
 ! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -13,22 +13,24 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !!            !!!Traveller Norwegian morphological analyser                      !
+! !!            !!!Balkan Romani (Arli) morphological analyser                      !
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Traveller Norwegian LANGUAGE.
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Balkan Romani, arli
  
 
 Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! ## Analysis symbols
 !  ----------------
-!! The morphological analyses of wordforms for the Traveller Norwegian
+!! The morphological analyses of wordforms for the Romany
 !! language are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
  +N +A +Adv +V                                 !!≈
  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
+ +Msc
+ +Fem
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
@@ -38,8 +40,16 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Use/-Spell 
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
+ +Sg
+ +Pl
+ +Nom
+ +Obl ! Obliikvi
+ +Dat
+ +Abl
+ +Gen
+ +Gen/Long ! name?
+ +Ins ! Instrumentaali
+ +Acc ! ??
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
@@ -51,7 +61,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
+ +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
 
@@ -135,15 +145,17 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in Traveller Norwegian language start from the lexeme roots of basic
+!! The word forms in Romany language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 0   Nouns       ;
 0   Verbs       ;
 0   Adjectives  ;
+0   Adverbs  ;
 0   Pronouns    ;
 0   Numerals    ;
 0   Prefixes    ;
     Punctuation ;
     Symbols     ;
+
 
 ! vim: set ft=xfst-lexc:

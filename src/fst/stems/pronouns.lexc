@@ -1,8 +1,25 @@
 !! Pronouns
 !  --------
-!! Pronouns in the Traveller Norwegian language are references to things.
+!! Pronouns in the Balkan Romani language are references to things.
+
+LEXICON pers 
++Pron+Pers: # ;
 
 LEXICON Pronouns
-pronoun    Cases   ;
+mero pers "jeg, meg" ; 
+meros pers "jeg, meg" ; 
+dero pers "du, deg" ;
+deros pers "du, deg, din" ;
+sero pers "seg" ;
+siro pers "seg" ;
+
+våro pers "vi" ; 
+våros pers "vår" ;
+våsjnus pers "vi, oss" ; 
+dæsjno pers "de, dem" ; 
+dæsjnus pers "du, de" ; 
+dålle pers "den, det" ;
+dåva pers "han, hun, den, det, denne, dette" ; 
+
 
 ! vim: set ft=xfst-lexc:

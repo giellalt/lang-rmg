@@ -1,8 +1,33 @@
 !! Numerals
 !  --------
-!! Numerals in the Traveller Norwegian language are numbers.
+!! Numerals in the Balkan Romani language are numbers.
+
+LEXICON num
++Num: # ;
 
 LEXICON Numerals
-numeral    Cases   ;
+efta num "sju" ;
+jikk num "en, et, ei" ;
+åkto num "åtte" ;
+trinn num "tre" ;
+trinn-dypansj num "tretti" ;
+trinn-dypansj-å-jikk num "tretti-en" ; 
+snes num  "tjue" ;
+snes-å-star num "tjue-fire" ;
+star num "fire" ;
+star-dypansj num "førti" ;
+sinkus num "seks" ;
+pansj num "fem" ;
+pansj-lill num "femti" ;
+pansj-lill-dypansj num "seksti" ;
+dy num "to" ;
+dypansj num "ti" ;
+dypansj-dy num "tolv" ;
+dypansj-efta num "sytten" ;
+dypansj-jikk num "elleve" ;
+dypansj-lill m2 "ti kroner" ;
+dypansj-star num "fjorten" ;
+dypansj-trinn num "tretten" ;
+dypansj-åkta num "atten" ;
 
 ! vim: set ft=xfst-lexc:
