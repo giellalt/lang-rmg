@@ -1,11 +1,16 @@
-!! Pronouns
+!! # Pronouns
 !  --------
-!! Pronouns in the Balkan Romani language are references to things.
+!! This is a list of pronouns in the Traveller Romani language.
+
+!! **TODO** The lis should be completed and given morphosyntactic tags
+!! when needed.
 
 LEXICON pers 
+!! **LEXICON @LEXNAME@** adds the tags *+Pron+Pers*
 +Pron+Pers: # ;
 
 LEXICON Pronouns
+!! **LEXICON @LEXNAME@** lists personal pronouns
 mero pers "jeg, meg" ; 
 meros pers "jeg, meg" ; 
 dero pers "du, deg" ;

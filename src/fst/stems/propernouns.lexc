@@ -1,0 +1,9 @@
+!! # Traveller Romani propernouns
+
+!! Here, we should use the nob file.
+
+LEXICON Propernouns
+!! **LEXICON @LEXNAME@** 
+
+Norge prop-plc ; !!≈ * @CODE@
+India prop-plc ; !!≈ * @CODE@

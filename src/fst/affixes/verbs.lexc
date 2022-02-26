@@ -1,8 +1,11 @@
-!! Verb inflection
+!! # Verb inflection
 !  ---------------
-!! The Balkan Romani language verbs inflect in persons.
+!! The Traveller Romani language verbs inflect in tense and participle.
+!! The lexica v1, v2, v3 are taken from the grammar.
+!! The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 
 LEXICON v1
+!! **LEXICON @LEXNAME@** 
 +V+Inf: # ;
 +V+Prs:%>r # ;
 +V+Prt: # ;
@@ -11,6 +14,7 @@ LEXICON v1
 +V+Imp: # ;
 
 LEXICON v2
+!! **LEXICON @LEXNAME@** 
 +V+Inf: # ;
 +V+Prs:%>r # ;
 +V+Prt:%>dde # ;
@@ -19,6 +23,7 @@ LEXICON v2
 +V+Imp: # ;
 
 LEXICON v3
+!! **LEXICON @LEXNAME@** 
 +V+Inf: # ;
 +V+Prs: # ;
 +V+Prt: # ;

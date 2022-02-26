@@ -1,21 +1,20 @@
-!! Adjectives
+!! # Adjectives
 !  ----------
-!! Adjectives in the Balkan Romani language describe things.
+!! Adjectives in the Traveller Romani language have two sblexica, *a1, a2*.
 
 LEXICON Adjectives
-latjo a1 "god" ;
-sjukkar a2 "fin" ;
+!! **LEXICON @LEXNAME@** 
 
-! sjukkar a2 "fin, pen. sjukkart fint, pent. sjukkre ~ sjukkra fine, pene" ;
-
-savo a1 "slik" ;
-norsk a2 "norsk" ;
-vavri a1 "annen" ;
-vaver a2 "annen" ;
-aven-dukkalo a1 "misunnelig " ;
-baro a1 "stor" ; 
-baro-kasjt m2 "stor-pinne" ; 
-baro-kårko m1 "jul" ; 
+latjo a1 "god" ; !!≈ * @CODE@
+sjukkar a2 "fin" ; !!≈ * @CODE@  "fin, pen. sjukkart fint, pent. sjukkre ~ sjukkra fine, pene" ;
+savo a1 "slik" ; !!≈ * @CODE@
+norsk a2 "norsk" ; !!≈ * @CODE@ (?)
+vavri a1 "annen" ; !!≈ * @CODE@
+vaver a2 "annen" ; !!≈ * @CODE@
+aven-dukkalo a1 "misunnelig " ; !!≈ * @CODE@
+baro a1 "stor" ;  !!≈ * @CODE@
+baro-kasjt m2 "stor-pinne" ;  !!≈ * @CODE@
+baro-kårko m1 "jul" ; !! all in all appr. 70 adjectives for now.
 basjtano a1 "streng; falsk, upålitelig " ;
 bengalo a1 "dum, gal, vill, ustyrlig " ;
 blavano a1 "blå" ;

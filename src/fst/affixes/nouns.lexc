@@ -1,65 +1,82 @@
-!! Noun inflection
+!! # Noun inflection
 !  ---------------
-!! The Balkan Romani language nouns inflect in cases.
+!! The Traveller Romani language nouns inflect in number and definiteness
+
+!! **TODO:** The lexica *m1 - m4* may be unified and their inflection 
+!! differences handled in twolc. *f1, f2* and *n* have different suffixes
+!! and should be kept.
 
 LEXICON mx
+!! **LEXICON @LEXNAME@** for uninflected (for now)
 +N: # ;
 
 LEXICON f1m2
+!! **LEXICON @LEXNAME@** split in two
 m2 ;
 f1 ;
 
 LEXICON f1m1
+!! **LEXICON @LEXNAME@** split  in two
 f1 ;
 m1 ;
 
 LEXICON f
+!! **LEXICON @LEXNAME@** goes to f2
 f2 ;
 
 LEXICON pl
+!! **LEXICON @LEXNAME@** with no gender info
 +N+Pl: # ;
 
 LEXICON m1
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Indef: # ;
 +N+Msc+Sg+Def:%>n # ;
 +N+Msc+Pl+Indef:%>ar # ;
 +N+Msc+Pl+Def:%>ane # ;
 
 LEXICON m1pl
+!! **LEXICON @LEXNAME@** pl only
 +N+Msc+Pl+Indef:%>ar # ;
 +N+Msc+Pl+Def:%>ane # ;
 
 LEXICON m2
+!! **LEXICON @LEXNAME@**
 +N+Msc+Sg+Indef: # ;
 +N+Msc+Sg+Def:%>en # ;
 +N+Msc+Pl+Indef:%>ar # ;
 +N+Msc+Pl+Def:%>ane # ;
 
 LEXICON m3
+!! **LEXICON @LEXNAME@**
 +N+Msc+Sg+Indef: # ;
 +N+Msc+Sg+Def:%>n # ;
 +N+Msc+Pl+Indef:%>r # ;
 +N+Msc+Pl+Def:%>ne # ;
 
 LEXICON m4
+!! **LEXICON @LEXNAME@**
 +N+Msc+Sg+Indef: # ;
 +N+Msc+Sg+Def:%>n # ;
 +N+Msc+Pl+Indef:%>ar # ;
 +N+Msc+Pl+Def:%>ane # ;
 
 LEXICON f1
+!! **LEXICON @LEXNAME@**
 +N+Fem+Sg+Indef: # ;
 +N+Fem+Sg+Def:%>a # ;
 +N+Fem+Pl+Indef:%>ar # ;
 +N+Fem+Pl+Def:%>ane # ;
 
 LEXICON f2
+!! **LEXICON @LEXNAME@**
 +N+Fem+Sg+Indef: # ;
 +N+Fem+Sg+Def:%>a # ;
 +N+Fem+Pl+Indef:%>er # ;
 +N+Fem+Pl+Def:%>ane # ;
 
 LEXICON n
+!! **LEXICON @LEXNAME@**
 +N+Neu+Sg+Indef: # ;
 +N+Neu+Sg+Def:%>e # ;
 +N+Neu+Pl+Indef:%> # ;

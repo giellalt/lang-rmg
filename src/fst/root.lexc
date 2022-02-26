@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for Balkan Romani language
+! Divvun & Giellatekno - open source grammars for Traveller Romani language
 ! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -13,108 +13,99 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !!            !!!Balkan Romani (Arli) morphological analyser                      !
+!!            # Traveller Romani morphological analyser                      
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Balkan Romani, arli
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Traveller Romani
  
 
-Multichar_Symbols  !!≈ # Definitions for @CODE@
+Multichar_Symbols  !!≈ # Definitions for **@CODE@** 
 
 !! ## Analysis symbols
 !  ----------------
-!! The morphological analyses of wordforms for the Romany
-!! language are presented in this system in terms of the following symbols.
+!! The morphological analyses of wordforms for Traveller Romani
+!! are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
- +Msc
- +Fem
+ +N +A +Adv +V                                 !!≈ * **@CODE@** 
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈ * **@CODE@** 
+
+!! Gender: 
+ +Msc +Fem +Neu !!≈ * **@CODE@** 
 
 !! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+ +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ * **@CODE@** 
 
 !! The Usage extents are marked using following tags:
- +Err/Orth   
- +Use/-Spell 
+ +Err/Orth   !!≈ * **@CODE@** 
+ +Use/-Spell !!≈ * **@CODE@** 
 
-!! The nominals are inflected in the following Case and Number
- +Sg
- +Pl
- +Nom
- +Obl ! Obliikvi
- +Dat
- +Abl
- +Gen
- +Gen/Long ! name?
- +Ins ! Instrumentaali
- +Acc ! ??
+!! The nominals are inflected in the following (Case and) Number
+ +Sg +Pl !!≈ * **@CODE@** 
+ +Nom !!≈ * **@CODE@**  needed?
+ +Gen !!≈ * **@CODE@**  needed?
+ +Acc !!≈ * **@CODE@**  needed ?
 
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
- +Comp +Superl
+ +Comp +Superl !!≈ * **@CODE@** 
 !! Numerals are classified under:
- +Attr +Card
- +Ord 
+ +Attr +Card !!≈ * **@CODE@** 
+ +Ord !!≈ * **@CODE@** 
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
-!! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
+ +Ind +Prs +Prt +Imprt !!≈ * **@CODE@**  hmm, no Ind marked...
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+ +Inf +Neg +PrsPrc +PrfPrc !!≈ * **@CODE@** 
 
 ! Abbreviated words are classified with:
- +ABBR +ACR 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+ +ABBR +ACR !!≈ * **@CODE@** 
++Symbol !!≈ * **@CODE@**  = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
-!! The verbs are syntactically split according to transitivity:
- +TV +IV
++CLB +PUNCT +LEFT +RIGHT !!≈ * **@CODE@** 
+!! The verbs are syntactically split according to transitivity: (well, not yet)
+ +TV +IV !!≈ * **@CODE@** 
 !! Special multiword units are analysed with:
- +Multi
+ +Multi !!≈ * **@CODE@** 
 !! Non-dictionary words can be recognised with:
- +Guess
+ +Guess !!≈ * **@CODE@** 
 
 !! Question and Focus particles:
- +Qst +Foc
+ +Qst +Foc !!≈ * **@CODE@** 
 
 
-!! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
+!! Semantics are classified with (so far the 4 first only)
+ +Sem/Mal    !!≈ * **@CODE@** 
+ +Sem/Fem    !!≈ * **@CODE@** 
+ +Sem/Sur    !!≈ * **@CODE@** 
+ +Sem/Plc    !!≈ * **@CODE@** 
+ +Sem/Org    !!≈ * **@CODE@** 
+ +Sem/Obj    !!≈ * **@CODE@** 
+ +Sem/Ani    !!≈ * **@CODE@** 
+ +Sem/Hum    !!≈ * **@CODE@** 
+ +Sem/Plant  !!≈ * **@CODE@** 
+ +Sem/Group  !!≈ * **@CODE@** 
+ +Sem/Time   !!≈ * **@CODE@** 
+ +Sem/Txt    !!≈ * **@CODE@** 
+ +Sem/Route  !!≈ * **@CODE@** 
+ +Sem/Measr  !!≈ * **@CODE@**  
+ +Sem/Wthr   !!≈ * **@CODE@** 
+ +Sem/Build  !!≈ * **@CODE@**  
+ +Sem/Edu    !!≈ * **@CODE@** 
+ +Sem/Veh    !!≈ * **@CODE@** 
+ +Sem/Clth   !!≈ * **@CODE@** 
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
+ +V→N +V→V +V→A !!≈ * **@CODE@** 
+ +Der/Adv !!≈ * **@CODE@** 
+ +Der/xxx !!≈ * **@CODE@** 
 
 
 !! Morphophonology
 !  ---------------
 !! To represent phonologic variations in word forms we use the following
-!! symbols in the lexicon files:
- {aä} {oö} {uü}
+!! symbols in the lexicon files: (still no such)
 
-!! And following triggers to control variation
- {front} {back}
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -145,17 +136,19 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
+!! **LEXICON @LEXNAME@** is where it all begins.
 !! The word forms in Romany language start from the lexeme roots of basic
-!! word classes, or optionally from prefixes:
-0   Nouns       ;
-0   Verbs       ;
-0   Adjectives  ;
-0   Adverbs  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
-    Punctuation ;
-    Symbols     ;
+!! word classes, or optionally from prefixes. The basic lexica are:
+Nouns       ; !!≈ @CODE@ 
+Verbs       ; !!≈ @CODE@ 
+Adjectives  ; !!≈ @CODE@ 
+Adverbs     ; !!≈ @CODE@ 
+Pronouns    ; !!≈ @CODE@ 
+Propernouns ; !!≈ @CODE@ 
+Numerals    ; !!≈ @CODE@ 
+Prefixes    ; !!≈ @CODE@ 
+Punctuation ; !!≈ @CODE@ 
+Symbols     ; !!≈ @CODE@ 
 
 
 ! vim: set ft=xfst-lexc:

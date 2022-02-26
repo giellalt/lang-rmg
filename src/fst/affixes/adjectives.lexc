@@ -1,8 +1,13 @@
-!! Adjective inflection
+!! # Adjective inflection
 !  --------------------
-!! The Balkan Romani language adjectives compare.
+!! The Traveller Romani language adjectives compare.
+
+!! **TODO!** the grammar lists *-e* and *-t* forms.
+!! These should get morphosyntactic tags (here ad hoc
+!! marked as *+Pl* and *+Der/Adv+Adv*.
 
 LEXICON a1
+!! **LEXICON @LEXNAME@**
 +A+Pos+Sg:      #   ;
 +A+Pos+Pl:%>e # ;
 +A+Der/Adv+Adv:%>t # ;
@@ -10,11 +15,13 @@ comp ;
 
 
 LEXICON a2
+!! **LEXICON @LEXNAME@** is here given plural *-a* and redirected to **a1**.
 +A+Pos+Pl:%>a # ;
 a1 ;
 
 
 LEXICON comp
+!! **LEXICON @LEXNAME@** *-are, -ast, -aste*, the latter marked *+Def*.
 +Comp:%>are # ;
 +Superl:%>ast # ;
 +Superl+Def:%>aste # ;

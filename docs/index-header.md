@@ -5,11 +5,13 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-rmg)](https://github.com/giellalt/lang-rmg/issues)
 [![Build status](https://github.com/giellalt/lang-rmg/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-rmg/actions)
 
-This page documents the work on the **Traveller Norwegian language model**. 
+There are several Romani languages, and it is at the moment not clear how many standardised Romani languages there are in the Nordic countries. [Here is an overview](../lang-rmy/romani-languages.html).
+
+This page documents the work on the [Traveller Norwegian Romani language model](https://github.com/giellalt/lang-rmg). Some work has been done, based upon Rolf Theil's *Vandriane rakkrar* (Novus forlag 2014).
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* Links to project specific documentation will be added here as needed. 
 
 # In-source documentation
 

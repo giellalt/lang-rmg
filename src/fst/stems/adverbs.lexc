@@ -1,28 +1,40 @@
+!! # Traveller Romani adverbs
+
+!! For now, this file contains not only adverbs (they should stay), 
+!! but also a rest category of things to be moved to their respective
+!! stem files (one file for each part-of-speech).
 
 LEXICON adv
+!! **LEXICON @LEXNAME@** adds the tag **+Adv**
 +Adv: # ;
 
 LEXICON cs
+!! **LEXICON @LEXNAME@** adds the tag  **+CS**
 +CS: # ;
 
 LEXICON cc
+!! **LEXICON @LEXNAME@** adds the tag  **+CC**
 +CC: # ;
 
 LEXICON pr
+!! **LEXICON @LEXNAME@** adds the tag  **+Pr**
 +Pr: # ;
 
 LEXICON vaux
+!! **LEXICON @LEXNAME@** adds the tag  **++V+Ind**, this lexicon is probably not needed
 +V+Inf: # ;
 
 LEXICON ij
+!! **LEXICON @LEXNAME@** adds the tag  **+Interj**
 +Interj: # ;
 
 LEXICON Adverbs
-ehe ij "ja" ;
+!! **LEXICON @LEXNAME@** lists the adverbs themselves (as well as the restcategory, for now)
+ehe ij "ja" ; !!≈ * @CODE@
 ali f1 "vindu" ; 
 ali m1 "vindu" ; 
 ali-jakk m1 "brille, lupe" ;
-alonom adv "aleine" ; 
+alonom adv "aleine" ;  !!≈ * @CODE@
 andri pr "i" ; 
 andri-dikkar m2 "TV, fjernsyn" ;
 ann pr "i" ;
@@ -105,8 +117,8 @@ hoppa v1 ;
 !høsten
 !håndtak, håndtaket
 i pr "i" ;
-ifann adv "ifra" ; 
-ipali adv "igjen" ;
+ifann adv "ifra" ;  !!≈ * @CODE@
+ipali adv "igjen" ; !!≈ * @CODE@
 ka v2 "ete, spise" ; 
 !kakken
 !kalmerot
