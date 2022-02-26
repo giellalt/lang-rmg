@@ -1,4 +1,4 @@
-# Nouns
+# Traveller Norwegian nouns
 This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n.
 
 **TODO** Conflate m1-m4.

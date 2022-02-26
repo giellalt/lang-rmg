@@ -110,10 +110,12 @@ This is a language-independent file.
 
 ---
 
-# Verb inflection
+# Traveller Norwegian verb inflection
 The Traveller Romani language verbs inflect in tense and participle.
 The lexica v1, v2, v3 are taken from the grammar.
 The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
+
+**LEXICON vaux** adds the tag  **++V+Ind**, this lexicon is probably not needed
 
 **LEXICON v1** 
 
@@ -284,6 +286,10 @@ Propernouns ;
 Numerals ; 
 Prefixes ; 
 Punctuation ; 
+Conjunctions ; 
+Subjunctions ; 
+Interjections ; 
+Prepositions ; 
 Symbols ; 
 
 * * *
@@ -322,18 +328,7 @@ stem files (one file for each part-of-speech).
 
 **LEXICON adv** adds the tag **+Adv**
 
-**LEXICON cs** adds the tag  **+CS**
-
-**LEXICON cc** adds the tag  **+CC**
-
-**LEXICON pr** adds the tag  **+Pr**
-
-**LEXICON vaux** adds the tag  **++V+Ind**, this lexicon is probably not needed
-
-**LEXICON ij** adds the tag  **+Interj**
-
 **LEXICON Adverbs** lists the adverbs themselves (as well as the restcategory, for now)
-* ehe ij "ja" ;
 * alonom adv "aleine" ;
 
 * ifann adv "ifra" ;
@@ -345,7 +340,34 @@ stem files (one file for each part-of-speech).
 
 ---
 
-# Nouns
+
+# Traveler Norwegian conjunctions
+
+**LEXICON cc** adds the tag  **+CC**
+
+**LEXICON Conjunctions** contains the conjunctions (2 so far)
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/stems/conjunctions.lexc)</small>
+
+---
+
+
+# Traveller Norwegian interjection file
+
+**LEXICON ij** adds the tag  **+Interj**
+
+**LEXICON Interjections** , one so far
+* ehe ij "ja" ;
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/stems/interjections.lexc)</small>
+
+---
+
+# Traveller Norwegian nouns
 This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n.
 
 **TODO** Conflate m1-m4.
@@ -366,10 +388,11 @@ This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n
 
 ---
 
-# Numerals
+# Traveller Norwegian numerals
 This is a list of whatever was found in the dictionary.
 
-**TODO** Make a systematic list
+The file dontains a first draft of a systematic setup
+for generating all nuerals.
 
 **LEXICON num** just adds the tag **+Num**.
 
@@ -405,7 +428,19 @@ The intention is to add eventual prefixes such as Norwegian *u-*.
 
 ---
 
-# Pronouns
+# Traveller Norwegian prepositions
+
+**LEXICON pr** adds the tag  **+Pr**
+
+**LEXICON Prepositions** contains the prepositions (10 so far)
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/prepositions.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/stems/prepositions.lexc)</small>
+
+---
+
+# Traveller Norwegian pronouns
 This is a list of pronouns in the Traveller Romani language.
 
 **TODO** The lis should be completed and given morphosyntactic tags
@@ -424,6 +459,7 @@ when needed.
 # Traveller Romani propernouns
 
 Here, we should use the nob file.
+The tags are added in the *affixes/propernouns.lexc* file.
 
 **LEXICON Propernouns** 
 
@@ -436,17 +472,27 @@ Here, we should use the nob file.
 
 ---
 
-# Verbs
+# Traveller Norwegian subjunction file
+
+**LEXICON cs** adds the tag  **+CS**
+
+**LEXICON Subjunctions** lists the subjunctions (4 so far)
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/subjunctions.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/stems/subjunctions.lexc)</small>
+
+---
+
+# Traveller Norwegian verbs
 This is the list of verbs in the Traveller Romani language.
 
 **LEXICON Verbs**
-* dabba v1 "slå" ;
-* ka v2 "ete" ;
-* dabbas v3 "slåst" ;
+
 * ava v1 "komme" ;
+* bæsja v1 "sitte, sette; stå " ;
 * bekkna v1 "selge " ;
 * besja v1 "sitte, sette; stå " ;
-* bæsja v1 "sitte, sette; stå " ;
 * blava v1 "henge " ;
 * bliddra v1 "bli" ;
 * boddra v1 "bo " ;
@@ -455,7 +501,9 @@ This is the list of verbs in the Traveller Romani language.
 * bruktara v1 "bruke" ;
 * brusja v1 "regne (om vær) " ;
 * ... etc.
-All in all some 100 verbs for now.
+* dabbas v3 "slåst" ;
+* All in all some 100 verbs for now.
+* ka v2 "ete" ;
 
 * * *
 

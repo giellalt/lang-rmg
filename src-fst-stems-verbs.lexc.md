@@ -1,14 +1,12 @@
-# Verbs
+# Traveller Norwegian verbs
 This is the list of verbs in the Traveller Romani language.
 
 **LEXICON Verbs**
-* dabba v1 "slå" ;
-* ka v2 "ete" ;
-* dabbas v3 "slåst" ;
+
 * ava v1 "komme" ;
+* bæsja v1 "sitte, sette; stå " ;
 * bekkna v1 "selge " ;
 * besja v1 "sitte, sette; stå " ;
-* bæsja v1 "sitte, sette; stå " ;
 * blava v1 "henge " ;
 * bliddra v1 "bli" ;
 * boddra v1 "bo " ;
@@ -17,7 +15,9 @@ This is the list of verbs in the Traveller Romani language.
 * bruktara v1 "bruke" ;
 * brusja v1 "regne (om vær) " ;
 * ... etc.
-All in all some 100 verbs for now.
+* dabbas v3 "slåst" ;
+* All in all some 100 verbs for now.
+* ka v2 "ete" ;
 
 * * *
 

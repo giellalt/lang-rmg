@@ -1,7 +1,8 @@
-# Numerals
+# Traveller Norwegian numerals
 This is a list of whatever was found in the dictionary.
 
-**TODO** Make a systematic list
+The file dontains a first draft of a systematic setup
+for generating all nuerals.
 
 **LEXICON num** just adds the tag **+Num**.
 

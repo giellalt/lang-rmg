@@ -124,6 +124,10 @@ Propernouns ;
 Numerals ; 
 Prefixes ; 
 Punctuation ; 
+Conjunctions ; 
+Subjunctions ; 
+Interjections ; 
+Prepositions ; 
 Symbols ; 
 
 * * *

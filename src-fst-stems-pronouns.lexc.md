@@ -1,4 +1,4 @@
-# Pronouns
+# Traveller Norwegian pronouns
 This is a list of pronouns in the Traveller Romani language.
 
 **TODO** The lis should be completed and given morphosyntactic tags

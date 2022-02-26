@@ -6,18 +6,7 @@ stem files (one file for each part-of-speech).
 
 **LEXICON adv** adds the tag **+Adv**
 
-**LEXICON cs** adds the tag  **+CS**
-
-**LEXICON cc** adds the tag  **+CC**
-
-**LEXICON pr** adds the tag  **+Pr**
-
-**LEXICON vaux** adds the tag  **++V+Ind**, this lexicon is probably not needed
-
-**LEXICON ij** adds the tag  **+Interj**
-
 **LEXICON Adverbs** lists the adverbs themselves (as well as the restcategory, for now)
-* ehe ij "ja" ;
 * alonom adv "aleine" ;
 
 * ifann adv "ifra" ;
