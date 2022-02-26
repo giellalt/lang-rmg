@@ -1,0 +1,22 @@
+!! # Traveller Norwegian prepositions
+
+
+LEXICON pr
+!! **LEXICON @LEXNAME@** adds the tag  **+Pr**
++Pr: # ;
+
+LEXICON Prepositions
+!! **LEXICON @LEXNAME@** contains the prepositions (10 so far)
+
+andri pr "i" ; 
+ann pr "i" ;
+av pr "av" ; ! ta
+fann pr "fra" ; 
+før pr ;
+førtus pr "før" ;
+i pr "i" ;
+pali pr "etter, bak, baki; tilbake" ;
+pre pr "på, hos" ;
+te pr "til" ;
+tellan pr "under" ;
+to pr "til" ;

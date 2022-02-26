@@ -1,9 +1,13 @@
 !! # Traveller Romani propernouns
 
 !! Here, we should use the nob file.
+!! The tags are added in the *affixes/propernouns.lexc* file.
 
 LEXICON Propernouns
 !! **LEXICON @LEXNAME@** 
 
 Norge prop-plc ; !!≈ * @CODE@
 India prop-plc ; !!≈ * @CODE@
+T-Ford prop-obj ;
+Karl prop-mal ;
+Karoline prop-fem ;

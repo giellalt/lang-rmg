@@ -1,16 +1,14 @@
-!! # Verbs
+!! # Traveller Norwegian verbs
 !  -----
 !! This is the list of verbs in the Traveller Romani language.
 
 LEXICON Verbs
 !! **LEXICON @LEXNAME@**
-dabba v1 "slå" ; !!≈ * @CODE@
-ka v2 "ete" ; !!≈ * @CODE@
-dabbas v3 "slåst" ; !!≈ * @CODE@
+
 ava v1 "komme" ; !!≈ * @CODE@
+bæsja v1 "sitte, sette; stå " ; !!≈ * @CODE@
 bekkna v1 "selge " ; !!≈ * @CODE@
 besja v1 "sitte, sette; stå " ; !!≈ * @CODE@
-bæsja v1 "sitte, sette; stå " ; !!≈ * @CODE@
 blava v1 "henge " ;  !!≈ * @CODE@
 bliddra v1 "bli" ; !!≈ * @CODE@
 boddra v1 "bo " ; !!≈ * @CODE@
@@ -19,27 +17,35 @@ brukkla v1 "bruke = bruttla" ; !!≈ * @CODE@
 bruktara v1 "bruke" ;  !!≈ * @CODE@
 brusja v1 "regne (om vær) " ; !!≈ * @CODE@
 bruttla v1 "bruke = brukkla" ; !! * ... etc.
-dabba v1 "slå " ; !! All in all some 100 verbs for now.
+dabbas v3 "slåst" ; !!≈ * @CODE@
+dabba v1 "slå " ; !! * All in all some 100 verbs for now.
+dåkka v1 "gi " ;
 dandra v1 "bite" ;
 denkra v1 "tenke " ;
+dikka v1 "se" ;
+dikkas v3 "sees" ;
 dommra v1 "sove" ;
 drabbra v1 "lese" ;
 driggra v1 "dra, trekke; bære " ;
-dåkka v1 "gi " ;
 fakka v1 "arbeide, jobbe, stelle, reparere" ;
+færnissa v1 "ønske, ville, ha lyst til" ;
 fusla v1 "bytte " ;
+gåla v1 "rope, skrike, skråle" ;
 gara v1 "gjømme " ;
 gia v1 "synge " ;
-gåla v1 "rope, skrike, skråle" ;
 heia v1 "vite; forstå, høre " ;
 hilpra v1 "hjelpe" ;
 honka v1 "være " ;
+hoppa v1 ;
 husktara v1 "huske " ;
+ja v2 "gå" ;
 jaggra v1 "brenne" ;
 jana v1 "vite, forstå; jf heia" ;
+ka v2 "ete" ; !!≈ * @CODE@
+kåkka v1 "ljuge" ;
 kamma v1 "ha" ;
-kangra v1 "greie, kjemme" ;
 kangla v1 "greie, kjemme" ;
+kangra v1 "greie, kjemme" ;
 kanja v1 "lukte" ;
 kannfara v1 "kunne" ;
 kannisa v1 "gjerne ville, ha lyst til; kunne " ;
@@ -47,29 +53,32 @@ kara v1 "kalle" ;
 karas v3 "kalles" ;
 kasjta v1 "hoste" ;
 kella v1 "danse" ;
-tjera v1 "gjøre, lage " ;
 kera v1 "gjøre, lage " ;
 knærka v1 "spille " ;
-kåkka v1 "ljuge" ;
+kunnfara v1 "kunne" ;
+lådda v1 "bo, losjere " ;
+lærtara v1 "lære = leddra" ;
 latja v1 "finne" ;
+le v2 "ta; hente; få" ;
 leddra v1 "lære = lærtara" ;
 leia v1 "helbrede, kurere; reparere; narre, bedra " ;
 leikfara v1 "leike" ;
-likfara v1 "like" ;
 leiktara v1 "leike" ;
+likfara v1 "like" ;
 liktara v1 "like" ;
-lærtara v1 "lære = leddra" ;
-lådda v1 "bo, losjere " ;
+målla v1 "koste (om pris)" ;
 matja v1 "fiske" ;
 mula v1 "dø; drepe " ;
-målla v1 "koste (om pris)" ;
 nadda v1 "klø; klore" ;
 nasja v1 "springe" ;
 nasjta v1 "greie, orke, klare" ;
 pagra v1 "bryte (i sund); veksle (penger) " ;
 pandla v1 "binde, strikke" ;
-panla v1 "binde, strikke" ;
 pandla-tav m2 "garnnøste" ;
+panla v1 "binde, strikke" ;
+pærda v1 "fylle" ;
+pærka v1 "takke" ;
+pærkla v1 "takke" ;
 parra v1 "handle, bytte " ;
 pasja v1 "tru" ;
 pekka v1 "steike; bake " ;
@@ -79,15 +88,13 @@ pordra v1 "blåse" ;
 preisa v1 "betale" ;
 pukka v1 "si; tilstå " ;
 putja v1 "spørre " ;
-pærda v1 "fylle" ;
-pærkla v1 "takke" ;
-pærka v1 "takke" ;
+råddra v1 "eie " ;
 rakka v1 "passe (på), ta vare på" ;
 rakkra v1 "tale, snakke, si, fortelle " ;
+råva v1 "gråte" ;
 rekkra v1 "holde; plukke (fann fra hverandre), skru " ;
 riggra v1 "bære, løfte; bere, lyfte" ;
-råddra v1 "eie " ;
-råva v1 "gråte" ;
+sa v2 "le" ;
 sikka v1 "vise, syne fram; bevise" ;
 sissa v1 "klippe" ;
 sivvra v1 "sy" ;
@@ -96,29 +103,24 @@ sløkktara v1 "slukke " ;
 smikkra v1 "smake; sleike " ;
 stakkra v1 "sparke" ;
 stansja v1 "stoppe, stanse" ;
+ste v2 "stå" ;
 suta v1 "ligge, legge " ;
-tastro a1 "tørr" ; 
 tåsjtra v1 "tørke" ;
 tåstra v1 "tørke" ;
+tastro a1 "tørr" ; 
 tava v1 "telefonere, ringe " ;
+tåva v1 "vaske, bade" ;
+tåva-kori f2 "(pl tåva-koriar) vaskebalje, vaskebøtte " ;
+tjåra v1 "stjele " ;
+tjærva v1 "koke" ;
 tjera v1 "gjøre, arbeide, lage " ;
+tjera v1 "gjøre, lage " ;
 tjingra v1 "skjære " ;
 tjinna v1 "kjøpe" ;
 tjivvra v1 "kaste" ;
-tjærva v1 "koke" ;
-tjåra v1 "stjele " ;
+tøya v1 "røyke, dampe " ;
 tradra v1 "reise; kjøre " ;
 trasja v1 "skremme, jage bort" ;
-tøya v1 "røyke, dampe " ;
-tåstra v1 "tørke" ;
-tåsjtra v1 "tørke" ;
-tåva v1 "vaske, bade" ;
-tåva-kori f2 "(pl tåva-koriar) vaskebalje, vaskebøtte " ;
-dikka v1 "se" ;
-dikkas v3 "sees" ;
-
-ja v2 "gå" ;
-le v2 "ta; hente; få" ;
-sa v2 "le" ;
+tromma v1 "tore, tørre, våge" ;
 
 ! vim: set ft=xfst-lexc:

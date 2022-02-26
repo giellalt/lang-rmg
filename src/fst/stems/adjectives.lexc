@@ -77,5 +77,13 @@ tåsjo a1 "tørr = tåstro" ;
 tåstro a1 "tørr = tåso" ;
 umala a1 "uenig, uvenner " ;
 valmus a1 "ferdig" ;
+helko a1 "hel, hele, all, alt, alle, hver" ; 
+kusj a1 "dyr, kostbar" ;
+låsjano a1 "glad, kvikk, lystig, stolt" ;
+oppri a1 "opp, oppi, oppå; åpen" ;
+oppri-kadd a1 "avgnagd" ; 
+sass a1 "all, alt, alle; hver" ; 
+fulanot a1 "skitten, sølete; ussel, elendig" ;
+dråvont a1 "tung, hard, vanskelig, sørgelig" ;
 
 ! vim: set ft=xfst-lexc:

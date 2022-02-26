@@ -1,0 +1,10 @@
+
+!! # Traveller Norwegian interjection file
+
+LEXICON ij
+!! **LEXICON @LEXNAME@** adds the tag  **+Interj**
++Interj: # ;
+
+LEXICON Interjections
+!! **LEXICON @LEXNAME@** , one so far
+ehe ij "ja" ; !!≈ * @CODE@

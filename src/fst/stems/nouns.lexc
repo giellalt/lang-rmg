@@ -1,4 +1,4 @@
-!! # Nouns
+!! # Traveller Norwegian nouns
 !  -----
 !! This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n.
 
@@ -14,7 +14,33 @@ danje m4 "tann" ; !!≈ * @CODE@
 busjni f1 "geit" ; !!≈ * @CODE@
 gaje f2 "kvinne" ; !!≈ * @CODE@
 bæsj n "år" ; !!≈ * @CODE@
+tabbrar pl "fyrstikker" ;
+februar mx ;
 
+
+ali f1 "vindu" ; 
+ali m1 "vindu" ; 
+ali-jakk m1 "brille, lupe" ;
+andri-dikkar m2 "TV, fjernsyn" ;
+apparat n ;
+appelsin n ;
+ball m2 ;
+ball-kast m2 ; 
+kartli f1 "førekort" ;
+!karva blad
+!kass ? kasj
+hjul n ;
+trampar-hjul n ;
+kalsing m2 "sko" ;
+kilometer m1 ;
+penja f2 "(pl penjar) søster" ; 
+rani f1 "dame, frue" ;
+sambuna m3 "pipe" ;
+våddro-isar:våddro-is m1pl "sengklær" ; 
+tellan-håfsi f "(pl tellan-håfsiar) underbukse" ;
+tjavosjke-drabbrar m2 "lærer (“barnelærer”)" ; 
+gana+N+Pl:gana # "folk, folka" ; ! morfologi?
+grammofon m1 ;
 
 loviar:lovi m1pl "pengar" ;
 isar:is m1pl "klær" ;

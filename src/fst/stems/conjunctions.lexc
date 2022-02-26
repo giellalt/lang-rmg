@@ -1,0 +1,11 @@
+
+!! # Traveler Norwegian conjunctions
+
+LEXICON cc
+!! **LEXICON @LEXNAME@** adds the tag  **+CC**
++CC: # ;
+
+LEXICON Conjunctions
+!! **LEXICON @LEXNAME@** contains the conjunctions (2 so far)
+å cc "og" ;
+eller cc ;

@@ -1,0 +1,14 @@
+!! # Traveller Norwegian subjunction file
+
+LEXICON cs
+!! **LEXICON @LEXNAME@** adds the tag  **+CS**
++CS: # ;
+
+
+LEXICON Subjunctions
+!! **LEXICON @LEXNAME@** lists the subjunctions (4 so far)
+at cs ;
+så cs ;
+som cs "som" ;
+sikto cs "som, slik som, lik" ;
+
