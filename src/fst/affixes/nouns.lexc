@@ -1,14 +1,15 @@
 !! # Noun inflection
 !  ---------------
-!! The Traveller Romani language nouns inflect in number and definiteness
+!! This file contains the noun inflection for Traveller Romani.
+!! The nouns inflect in number and definiteness
 
 !! **TODO:** The lexica *m1 - m4* may be unified and their inflection 
 !! differences handled in twolc. *f1, f2* and *n* have different suffixes
 !! and should be kept.
 
-LEXICON mx
-!! **LEXICON @LEXNAME@** for uninflected (for now)
-+N: # ;
+!! ## The lexicons
+
+!! ### Lexicons pointing to other lexicons
 
 LEXICON f1m2
 !! **LEXICON @LEXNAME@** split in two
@@ -25,8 +26,14 @@ LEXICON f
 f2 ;
 
 LEXICON pl
-!! **LEXICON @LEXNAME@** with no gender info
+!! **LEXICON @LEXNAME@** with no gender info, just gives *+N+Pl*
 +N+Pl: # ;
+
+!! ### Lexicons for masculine nouns
+
+LEXICON mx
+!! **LEXICON @LEXNAME@** for uninflected (for now)
++N: # ;
 
 LEXICON m1
 !! **LEXICON @LEXNAME@** 
@@ -61,6 +68,8 @@ LEXICON m4
 +N+Msc+Pl+Indef:%>ar # ;
 +N+Msc+Pl+Def:%>ane # ;
 
+!! ### Lexicons for feminine nouns
+
 LEXICON f1
 !! **LEXICON @LEXNAME@**
 +N+Fem+Sg+Indef: # ;
@@ -74,6 +83,8 @@ LEXICON f2
 +N+Fem+Sg+Def:%>a # ;
 +N+Fem+Pl+Indef:%>er # ;
 +N+Fem+Pl+Def:%>ane # ;
+
+!! ### Lexicons for neuter nouns
 
 LEXICON n
 !! **LEXICON @LEXNAME@**

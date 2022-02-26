@@ -14,6 +14,8 @@
 
 !! # Symbol affixes
 
+!! This is a language-independent file.
+
 LEXICON Noun_symbols_possibly_inflected
 !! **LEXICON @LEXNAME@**
  +N+Symbol: SYMBOL_connector ;
@@ -24,29 +26,16 @@ LEXICON Noun_symbols_never_inflected
 
 LEXICON SYMBOL_connector
 !! **LEXICON @LEXNAME@**
-               SYMBOL_NO_suff ; ! §
-          :%:  SYMBOL_suff    ; ! §:sne
- +Err/Orth:    SYMBOL_suff    ; ! §esne
- +Err/Orth:%-e SYMBOL_suff    ; ! §-esne
- +Err/Orth:%'e SYMBOL_suff    ; ! §'esne
+SYMBOL_NO_suff ; ! §
+:%:  SYMBOL_suff    ; ! §:sne
+! +Err/Orth:    SYMBOL_suff    ; ! §esne
+! +Err/Orth:%-e SYMBOL_suff    ; ! §-esne
+! +Err/Orth:%'e SYMBOL_suff    ; ! §'esne
 
 LEXICON SYMBOL_NO_suff
 !! **LEXICON @LEXNAME@**
- +Sg+Nom: # ;
+ +Sg+Indef: # ;
 
 LEXICON SYMBOL_suff
-!! **LEXICON @LEXNAME@**
- +Sg+Gen:n       # ;
- +Sg+Acc:m       # ;
- +Sg+Ill:se      # ;
- +Sg+Ine:sne     # ;
- +Sg+Ela:ste     # ;
- +Sg+Com:ine     # ;
-    +Ess:ine     # ;
- +Pl+Nom:h       # ;
- +Pl+Gen:ij      # ;
- +Pl+Acc:ide     # ;
- +Pl+Ill:ide     # ;
- +Pl+Ine:ine     # ;
- +Pl+Ela:jste    # ;
- +Pl+Com:jgujmie # ;
+!! **LEXICON @LEXNAME@** (dummy lexicon for now)
+  # ;
