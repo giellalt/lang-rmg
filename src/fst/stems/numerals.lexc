@@ -1,33 +1,54 @@
-!! Numerals
+!! # Numerals
 !  --------
-!! Numerals in the Balkan Romani language are numbers.
+!! This is a list of whatever was found in the dictionary.
+
+!! **TODO** Make a systematic list
 
 LEXICON num
+!! **LEXICON @LEXNAME@** just adds the tag **+Num**.
 +Num: # ;
 
 LEXICON Numerals
-efta num "sju" ;
+!! **LEXICON @LEXNAME@** splits layers of numerals in sublexca
+1to9 ;
+TENS ;
+TEENS ;
+numeralcompounds ;
+
+LEXICON TEENS
+!! **LEXICON @LEXNAME@** where *dypansj-* is redirected to **1to9**.
+dypansj- 1to9 ;
+
+LEXICON 1to9
+!! **LEXICON @LEXNAME@** contains the basic numerals
 jikk num "en, et, ei" ;
-åkto num "åtte" ;
-trinn num "tre" ;
-trinn-dypansj num "tretti" ;
-trinn-dypansj-å-jikk num "tretti-en" ; 
-snes num  "tjue" ;
-snes-å-star num "tjue-fire" ;
-star num "fire" ;
-star-dypansj num "førti" ;
-sinkus num "seks" ;
-pansj num "fem" ;
-pansj-lill num "femti" ;
-pansj-lill-dypansj num "seksti" ;
 dy num "to" ;
+trinn num "tre" ;
+star num "fire" ;
+pansj num "fem" ;
+sinkus num "seks" ;
+efta num "sju" ;
+åkto num "åtte" ;
+
+LEXICON TENS
+!! **LEXICON @LEXNAME@** contains 10, 20, .. 90.
 dypansj num "ti" ;
-dypansj-dy num "tolv" ;
-dypansj-efta num "sytten" ;
-dypansj-jikk num "elleve" ;
+snes TENSsplit  "tjue" ;
+trinn-dypansj TENSsplit "tretti" ;
+star-dypansj TENSsplit "førti" ;
+pansj-lill TENSsplit "femti" ;
+pansj-lill-dypansj TENSsplit "seksti" ;
+
+LEXICON TENSsplit
+!! **LEXICON @LEXNAME@** splits 20, ... 90 into 20 vs 21, 22, ...
+num ; !!≈ * @CODE* here the tens go to +Num: snes, trinn-dypansj, ..
+-å- 1to9 ;  !!≈ * @CODE* here the tens go to 1to9: snes-å-dy, trinn-dypansj-å-jikk, ..
+
+!trinn-dypansj-å-jikk num "tretti-en" ; 
+!snes-å-star num "tjue-fire" ;
+
+LEXICON numeralcompounds
+!! **LEXICON @LEXNAME@** is a lexicon to be looked into.
 dypansj-lill m2 "ti kroner" ;
-dypansj-star num "fjorten" ;
-dypansj-trinn num "tretten" ;
-dypansj-åkta num "atten" ;
 
 ! vim: set ft=xfst-lexc:
