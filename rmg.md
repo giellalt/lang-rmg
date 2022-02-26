@@ -3,17 +3,17 @@
 All documents in one file
 
 # Adjective inflection
-The Traveller Romani language adjectives compare.
+This file contains Traveller Romani adjective inflection.
 
 **TODO!** the grammar lists *-e* and *-t* forms.
 These should get morphosyntactic tags (here ad hoc
 marked as *+Pl* and *+Der/Adv+Adv*.
 
-**LEXICON a1**
+**LEXICON a1** is the default lexicon. It gives *-Ø, -e, -t* and points to lexicon **comp**.
 
-**LEXICON a2** is here given plural *-a* and redirected to **a1**.
+**LEXICON a2**  given an alternate plural form in *-a* and redirects to **a1**.
 
-**LEXICON comp** *-are, -ast, -aste*, the latter marked *+Def*.
+**LEXICON comp** gives *-are, -ast, -aste*, the latter marked *+Def*.
 
 * * *
 
@@ -22,13 +22,16 @@ marked as *+Pl* and *+Der/Adv+Adv*.
 ---
 
 # Noun inflection
-The Traveller Romani language nouns inflect in number and definiteness
+This file contains the noun inflection for Traveller Romani.
+The nouns inflect in number and definiteness
 
 **TODO:** The lexica *m1 - m4* may be unified and their inflection 
 differences handled in twolc. *f1, f2* and *n* have different suffixes
 and should be kept.
 
-**LEXICON mx** for uninflected (for now)
+## The lexicons
+
+### Lexicons pointing to other lexicons
 
 **LEXICON f1m2** split in two
 
@@ -36,7 +39,11 @@ and should be kept.
 
 **LEXICON f** goes to f2
 
-**LEXICON pl** with no gender info
+**LEXICON pl** with no gender info, just gives *+N+Pl*
+
+### Lexicons for masculine nouns
+
+**LEXICON mx** for uninflected (for now)
 
 **LEXICON m1** 
 
@@ -48,9 +55,13 @@ and should be kept.
 
 **LEXICON m4**
 
+### Lexicons for feminine nouns
+
 **LEXICON f1**
 
 **LEXICON f2**
+
+### Lexicons for neuter nouns
 
 **LEXICON n**
 
@@ -61,13 +72,16 @@ and should be kept.
 ---
 
 # Proper noun inflection
-The Traveller Romani language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+This file assigns tags to the Traveller Romani proper nouns 
+It dies contain any inflection.
 
-**LEXICON prop-fem**
-**LEXICON prop-mal**
-**LEXICON prop-plc**
-**LEXICON prop-obj**
+* **LEXICON prop-fem**
+
+* **LEXICON prop-mal**
+
+* **LEXICON prop-plc**
+
+* **LEXICON prop-obj**
 
 * * *
 
@@ -78,6 +92,8 @@ nouns, but with a colon (':') as separator.
 
 # Symbol affixes
 
+This is a language-independent file.
+
 **LEXICON Noun_symbols_possibly_inflected**
 
 **LEXICON Noun_symbols_never_inflected**
@@ -86,7 +102,7 @@ nouns, but with a colon (':') as separator.
 
 **LEXICON SYMBOL_NO_suff**
 
-**LEXICON SYMBOL_suff**
+**LEXICON SYMBOL_suff** (dummy lexicon for now)
 
 * * *
 

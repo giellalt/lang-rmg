@@ -1,11 +1,14 @@
 # Proper noun inflection
-The Traveller Romani language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+This file assigns tags to the Traveller Romani proper nouns 
+It dies contain any inflection.
 
-**LEXICON prop-fem**
-**LEXICON prop-mal**
-**LEXICON prop-plc**
-**LEXICON prop-obj**
+* **LEXICON prop-fem**
+
+* **LEXICON prop-mal**
+
+* **LEXICON prop-plc**
+
+* **LEXICON prop-obj**
 
 * * *
 

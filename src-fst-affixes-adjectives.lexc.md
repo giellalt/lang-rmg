@@ -1,15 +1,15 @@
 # Adjective inflection
-The Traveller Romani language adjectives compare.
+This file contains Traveller Romani adjective inflection.
 
 **TODO!** the grammar lists *-e* and *-t* forms.
 These should get morphosyntactic tags (here ad hoc
 marked as *+Pl* and *+Der/Adv+Adv*.
 
-**LEXICON a1**
+**LEXICON a1** is the default lexicon. It gives *-Ø, -e, -t* and points to lexicon **comp**.
 
-**LEXICON a2** is here given plural *-a* and redirected to **a1**.
+**LEXICON a2**  given an alternate plural form in *-a* and redirects to **a1**.
 
-**LEXICON comp** *-are, -ast, -aste*, the latter marked *+Def*.
+**LEXICON comp** gives *-are, -ast, -aste*, the latter marked *+Def*.
 
 * * *
 

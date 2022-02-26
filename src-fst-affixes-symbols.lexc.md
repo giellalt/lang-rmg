@@ -1,6 +1,8 @@
 
 # Symbol affixes
 
+This is a language-independent file.
+
 **LEXICON Noun_symbols_possibly_inflected**
 
 **LEXICON Noun_symbols_never_inflected**
@@ -9,7 +11,7 @@
 
 **LEXICON SYMBOL_NO_suff**
 
-**LEXICON SYMBOL_suff**
+**LEXICON SYMBOL_suff** (dummy lexicon for now)
 
 * * *
 
