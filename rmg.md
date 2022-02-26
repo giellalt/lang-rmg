@@ -2,8 +2,18 @@
 
 All documents in one file
 
-Adjective inflection
-The Balkan Romani language adjectives compare.
+# Adjective inflection
+The Traveller Romani language adjectives compare.
+
+**TODO!** the grammar lists *-e* and *-t* forms.
+These should get morphosyntactic tags (here ad hoc
+marked as *+Pl* and *+Der/Adv+Adv*.
+
+**LEXICON a1**
+
+**LEXICON a2** is here given plural *-a* and redirected to **a1**.
+
+**LEXICON comp** *-are, -ast, -aste*, the latter marked *+Def*.
 
 * * *
 
@@ -11,8 +21,38 @@ The Balkan Romani language adjectives compare.
 
 ---
 
-Noun inflection
-The Balkan Romani language nouns inflect in cases.
+# Noun inflection
+The Traveller Romani language nouns inflect in number and definiteness
+
+**TODO:** The lexica *m1 - m4* may be unified and their inflection 
+differences handled in twolc. *f1, f2* and *n* have different suffixes
+and should be kept.
+
+**LEXICON mx** for uninflected (for now)
+
+**LEXICON f1m2** split in two
+
+**LEXICON f1m1** split  in two
+
+**LEXICON f** goes to f2
+
+**LEXICON pl** with no gender info
+
+**LEXICON m1** 
+
+**LEXICON m1pl** pl only
+
+**LEXICON m2**
+
+**LEXICON m3**
+
+**LEXICON m4**
+
+**LEXICON f1**
+
+**LEXICON f2**
+
+**LEXICON n**
 
 * * *
 
@@ -20,9 +60,14 @@ The Balkan Romani language nouns inflect in cases.
 
 ---
 
-Proper noun inflection
-The Balkan Romani language proper nouns inflect in the same cases as regular
+# Proper noun inflection
+The Traveller Romani language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
+
+**LEXICON prop-fem**
+**LEXICON prop-mal**
+**LEXICON prop-plc**
+**LEXICON prop-obj**
 
 * * *
 
@@ -33,14 +78,32 @@ nouns, but with a colon (':') as separator.
 
 # Symbol affixes
 
+**LEXICON Noun_symbols_possibly_inflected**
+
+**LEXICON Noun_symbols_never_inflected**
+
+**LEXICON SYMBOL_connector**
+
+**LEXICON SYMBOL_NO_suff**
+
+**LEXICON SYMBOL_suff**
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/affixes/symbols.lexc)</small>
 
 ---
 
-Verb inflection
-The Balkan Romani language verbs inflect in persons.
+# Verb inflection
+The Traveller Romani language verbs inflect in tense and participle.
+The lexica v1, v2, v3 are taken from the grammar.
+The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
+
+**LEXICON v1** 
+
+**LEXICON v2** 
+
+**LEXICON v3** 
 
 * * *
 
@@ -49,8 +112,29 @@ The Balkan Romani language verbs inflect in persons.
 ---
 
 =================================== !
-The Balkan Romani morphophonological/twolc rules file !
+# The Traveller Romani morphophonological/twolc rules file 
 =================================== !
+
+## Alphabet
+* a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
+  á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
+* 
+* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
+  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
+
+* %> ; this is the suffix boundary
+
+## Sets
+
+* Vow = a e i o u y æ ø å basic vowels
+* á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ; these just in case
+* Cns = b c d f g h j k l m n p q r s t v w x z ð þ ; consonants
+
+## Rules
+
+**RULE: Deleting stem-final e in front of vowel-initial suffix** =   
+
+**RULE: Deleting stem-internal a before r in bisyllabic stems** =   
 
 * * *
 
@@ -59,48 +143,90 @@ The Balkan Romani morphophonological/twolc rules file !
 ---
 
 
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Balkan Romani, arli
+# Traveller Romani morphological analyser                      
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Traveller Romani
 
-# Definitions for Multichar_Symbols
+# Definitions for **Multichar_Symbols** 
 
 ## Analysis symbols
-The morphological analyses of wordforms for the Romany
-language are presented in this system in terms of the following symbols.
+The morphological analyses of wordforms for Traveller Romani
+are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
 The parts-of-speech are:
+* **+N +A +Adv +V** 
+* **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num** 
+
+Gender: 
+* **+Msc +Fem +Neu** 
 
 The parts of speech are further split up into:
+* **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef** 
 
 The Usage extents are marked using following tags:
+* **+Err/Orth** 
+* **+Use/-Spell** 
 
-The nominals are inflected in the following Case and Number
+The nominals are inflected in the following (Case and) Number
+* **+Sg +Pl** 
+* **+Nom**  needed?
+* **+Gen**  needed?
+* **+Acc**  needed ?
 
-The possession is marked as such:
 The comparative forms are:
+* **+Comp +Superl** 
 Numerals are classified under:
+* **+Attr +Card** 
+* **+Ord** 
 Verb moods are:
-Verb personal forms are:
+* **+Ind +Prs +Prt +Imprt**  hmm, no Ind marked...
 Other verb forms are
+* **+Inf +Neg +PrsPrc +PrfPrc** 
 
-* +Symbol = independent symbols in the text stream, like £, €, ©
+* **+ABBR +ACR** 
+* **+Symbol**  = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
-The verbs are syntactically split according to transitivity:
+* **+CLB +PUNCT +LEFT +RIGHT** 
+The verbs are syntactically split according to transitivity: (well, not yet)
+* **+TV +IV** 
 Special multiword units are analysed with:
+* **+Multi** 
 Non-dictionary words can be recognised with:
+* **+Guess** 
 
 Question and Focus particles:
+* **+Qst +Foc** 
 
-Semantics are classified with
+Semantics are classified with (so far the 4 first only)
+* **+Sem/Mal** 
+* **+Sem/Fem** 
+* **+Sem/Sur** 
+* **+Sem/Plc** 
+* **+Sem/Org** 
+* **+Sem/Obj** 
+* **+Sem/Ani** 
+* **+Sem/Hum** 
+* **+Sem/Plant** 
+* **+Sem/Group** 
+* **+Sem/Time** 
+* **+Sem/Txt** 
+* **+Sem/Route** 
+* **+Sem/Measr**  
+* **+Sem/Wthr** 
+* **+Sem/Build**  
+* **+Sem/Edu** 
+* **+Sem/Veh** 
+* **+Sem/Clth** 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+* **+V→N +V→V +V→A** 
+* **+Der/Adv** 
+* **+Der/xxx** 
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
-symbols in the lexicon files:
-
-And following triggers to control variation
+symbols in the lexicon files: (still no such)
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -130,8 +256,19 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
+**LEXICON Root** is where it all begins.
 The word forms in Romany language start from the lexeme roots of basic
-word classes, or optionally from prefixes:
+word classes, or optionally from prefixes. The basic lexica are:
+Nouns ; 
+Verbs ; 
+Adjectives ; 
+Adverbs ; 
+Pronouns ; 
+Propernouns ; 
+Numerals ; 
+Prefixes ; 
+Punctuation ; 
+Symbols ; 
 
 * * *
 
@@ -139,8 +276,21 @@ word classes, or optionally from prefixes:
 
 ---
 
-Adjectives
-Adjectives in the Balkan Romani language describe things.
+# Adjectives
+Adjectives in the Traveller Romani language have two sblexica, *a1, a2*.
+
+**LEXICON Adjectives** 
+
+* latjo a1 "god" ;
+* sjukkar a2 "fin" ;  "fin, pen. sjukkart fint, pent. sjukkre ~ sjukkra fine, pene" ;
+* savo a1 "slik" ;
+* norsk a2 "norsk" ; (?)
+* vavri a1 "annen" ;
+* vaver a2 "annen" ;
+* aven-dukkalo a1 "misunnelig " ;
+* baro a1 "stor" ;
+* baro-kasjt m2 "stor-pinne" ;
+all in all appr. 70 adjectives for now.
 
 * * *
 
@@ -148,8 +298,51 @@ Adjectives in the Balkan Romani language describe things.
 
 ---
 
-Nouns
-Nouns in the Balkan Romani language are things.
+# Traveller Romani adverbs
+
+For now, this file contains not only adverbs (they should stay), 
+but also a rest category of things to be moved to their respective
+stem files (one file for each part-of-speech).
+
+**LEXICON adv** adds the tag **+Adv**
+
+**LEXICON cs** adds the tag  **+CS**
+
+**LEXICON cc** adds the tag  **+CC**
+
+**LEXICON pr** adds the tag  **+Pr**
+
+**LEXICON vaux** adds the tag  **++V+Ind**, this lexicon is probably not needed
+
+**LEXICON ij** adds the tag  **+Interj**
+
+**LEXICON Adverbs** lists the adverbs themselves (as well as the restcategory, for now)
+* ehe ij "ja" ;
+* alonom adv "aleine" ;
+
+* ifann adv "ifra" ;
+* ipali adv "igjen" ;
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+# Nouns
+This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n.
+
+**TODO** Conflate m1-m4.
+
+**LEXICON Nouns** 
+
+* tjavo m1 "gut" ;
+* trulsing m2 "dokke" ;
+* hisjpa m3 "hus" ;
+* danje m4 "tann" ;
+* busjni f1 "geit" ;
+* gaje f2 "kvinne" ;
+* bæsj n "år" ;
 
 * * *
 
@@ -157,8 +350,26 @@ Nouns in the Balkan Romani language are things.
 
 ---
 
-Numerals
-Numerals in the Balkan Romani language are numbers.
+# Numerals
+This is a list of whatever was found in the dictionary.
+
+**TODO** Make a systematic list
+
+**LEXICON num** just adds the tag **+Num**.
+
+**LEXICON Numerals** splits layers of numerals in sublexca
+
+**LEXICON TEENS** where *dypansj-* is redirected to **1to9**.
+
+**LEXICON 1to9** contains the basic numerals
+
+**LEXICON TENS** contains 10, 20, .. 90.
+
+**LEXICON TENSsplit** splits 20, ... 90 into 20 vs 21, 22, ...
+num ; num ;  * @CODE* here the tens go to +Num: snes, trinn-dypansj, ..
+-å- 1to9 ; -å- 1to9 ;   * @CODE* here the tens go to 1to9: snes-å-dy, trinn-dypansj-å-jikk, ..
+
+**LEXICON numeralcompounds** is a lexicon to be looked into.
 
 * * *
 
@@ -166,8 +377,11 @@ Numerals in the Balkan Romani language are numbers.
 
 ---
 
-Prefixes
-Prefixes in the Balkan Romani language are bound to beginning of other words.
+# Prefixes
+Prefixes in the Traveller Romani language ...
+
+Nothing has been done on this, it is a dummy file.
+The intention is to add eventual prefixes such as Norwegian *u-*.
 
 * * *
 
@@ -175,8 +389,15 @@ Prefixes in the Balkan Romani language are bound to beginning of other words.
 
 ---
 
-Pronouns
-Pronouns in the Balkan Romani language are references to things.
+# Pronouns
+This is a list of pronouns in the Traveller Romani language.
+
+**TODO** The lis should be completed and given morphosyntactic tags
+when needed.
+
+**LEXICON pers** adds the tags *+Pron+Pers*
+
+**LEXICON Pronouns** lists personal pronouns
 
 * * *
 
@@ -184,8 +405,41 @@ Pronouns in the Balkan Romani language are references to things.
 
 ---
 
-Verbs
-Verbs in the Balkan Romani language are actions.
+# Traveller Romani propernouns
+
+Here, we should use the nob file.
+
+**LEXICON Propernouns** 
+
+* Norge prop-plc ;
+* India prop-plc ;
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/propernouns.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/stems/propernouns.lexc)</small>
+
+---
+
+# Verbs
+This is the list of verbs in the Traveller Romani language.
+
+**LEXICON Verbs**
+* dabba v1 "slå" ;
+* ka v2 "ete" ;
+* dabbas v3 "slåst" ;
+* ava v1 "komme" ;
+* bekkna v1 "selge " ;
+* besja v1 "sitte, sette; stå " ;
+* bæsja v1 "sitte, sette; stå " ;
+* blava v1 "henge " ;
+* bliddra v1 "bli" ;
+* boddra v1 "bo " ;
+* brasja v1 "fryse" ;
+* brukkla v1 "bruke = bruttla" ;
+* bruktara v1 "bruke" ;
+* brusja v1 "regne (om vær) " ;
+* ... etc.
+All in all some 100 verbs for now.
 
 * * *
 

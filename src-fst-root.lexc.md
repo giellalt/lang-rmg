@@ -1,46 +1,88 @@
 
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Balkan Romani, arli
+# Traveller Romani morphological analyser                      
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Traveller Romani
 
-# Definitions for Multichar_Symbols
+# Definitions for **Multichar_Symbols** 
 
 ## Analysis symbols
-The morphological analyses of wordforms for the Romany
-language are presented in this system in terms of the following symbols.
+The morphological analyses of wordforms for Traveller Romani
+are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
 The parts-of-speech are:
+* **+N +A +Adv +V** 
+* **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num** 
+
+Gender: 
+* **+Msc +Fem +Neu** 
 
 The parts of speech are further split up into:
+* **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef** 
 
 The Usage extents are marked using following tags:
+* **+Err/Orth** 
+* **+Use/-Spell** 
 
-The nominals are inflected in the following Case and Number
+The nominals are inflected in the following (Case and) Number
+* **+Sg +Pl** 
+* **+Nom**  needed?
+* **+Gen**  needed?
+* **+Acc**  needed ?
 
-The possession is marked as such:
 The comparative forms are:
+* **+Comp +Superl** 
 Numerals are classified under:
+* **+Attr +Card** 
+* **+Ord** 
 Verb moods are:
-Verb personal forms are:
+* **+Ind +Prs +Prt +Imprt**  hmm, no Ind marked...
 Other verb forms are
+* **+Inf +Neg +PrsPrc +PrfPrc** 
 
-* +Symbol = independent symbols in the text stream, like £, €, ©
+* **+ABBR +ACR** 
+* **+Symbol**  = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
-The verbs are syntactically split according to transitivity:
+* **+CLB +PUNCT +LEFT +RIGHT** 
+The verbs are syntactically split according to transitivity: (well, not yet)
+* **+TV +IV** 
 Special multiword units are analysed with:
+* **+Multi** 
 Non-dictionary words can be recognised with:
+* **+Guess** 
 
 Question and Focus particles:
+* **+Qst +Foc** 
 
-Semantics are classified with
+Semantics are classified with (so far the 4 first only)
+* **+Sem/Mal** 
+* **+Sem/Fem** 
+* **+Sem/Sur** 
+* **+Sem/Plc** 
+* **+Sem/Org** 
+* **+Sem/Obj** 
+* **+Sem/Ani** 
+* **+Sem/Hum** 
+* **+Sem/Plant** 
+* **+Sem/Group** 
+* **+Sem/Time** 
+* **+Sem/Txt** 
+* **+Sem/Route** 
+* **+Sem/Measr**  
+* **+Sem/Wthr** 
+* **+Sem/Build**  
+* **+Sem/Edu** 
+* **+Sem/Veh** 
+* **+Sem/Clth** 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+* **+V→N +V→V +V→A** 
+* **+Der/Adv** 
+* **+Der/xxx** 
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
-symbols in the lexicon files:
-
-And following triggers to control variation
+symbols in the lexicon files: (still no such)
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -70,8 +112,19 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
+**LEXICON Root** is where it all begins.
 The word forms in Romany language start from the lexeme roots of basic
-word classes, or optionally from prefixes:
+word classes, or optionally from prefixes. The basic lexica are:
+Nouns ; 
+Verbs ; 
+Adjectives ; 
+Adverbs ; 
+Pronouns ; 
+Propernouns ; 
+Numerals ; 
+Prefixes ; 
+Punctuation ; 
+Symbols ; 
 
 * * *
 

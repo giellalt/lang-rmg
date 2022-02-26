@@ -1,5 +1,8 @@
-Prefixes
-Prefixes in the Balkan Romani language are bound to beginning of other words.
+# Prefixes
+Prefixes in the Traveller Romani language ...
+
+Nothing has been done on this, it is a dummy file.
+The intention is to add eventual prefixes such as Norwegian *u-*.
 
 * * *
 

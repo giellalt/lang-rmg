@@ -1,5 +1,12 @@
-Pronouns
-Pronouns in the Balkan Romani language are references to things.
+# Pronouns
+This is a list of pronouns in the Traveller Romani language.
+
+**TODO** The lis should be completed and given morphosyntactic tags
+when needed.
+
+**LEXICON pers** adds the tags *+Pron+Pers*
+
+**LEXICON Pronouns** lists personal pronouns
 
 * * *
 

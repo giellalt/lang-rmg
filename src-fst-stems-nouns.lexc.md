@@ -1,5 +1,17 @@
-Nouns
-Nouns in the Balkan Romani language are things.
+# Nouns
+This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n.
+
+**TODO** Conflate m1-m4.
+
+**LEXICON Nouns** 
+
+* tjavo m1 "gut" ;
+* trulsing m2 "dokke" ;
+* hisjpa m3 "hus" ;
+* danje m4 "tann" ;
+* busjni f1 "geit" ;
+* gaje f2 "kvinne" ;
+* bæsj n "år" ;
 
 * * *
 

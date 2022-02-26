@@ -1,6 +1,11 @@
-Proper noun inflection
-The Balkan Romani language proper nouns inflect in the same cases as regular
+# Proper noun inflection
+The Traveller Romani language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
+
+**LEXICON prop-fem**
+**LEXICON prop-mal**
+**LEXICON prop-plc**
+**LEXICON prop-obj**
 
 * * *
 
