@@ -1,0 +1,5 @@
++N+Fem+Sg+Indef
++N+Fem+Sg+Def
++N+Fem+Pl+Indef
++N+Fem+Pl+Def
++N+Fem+Pl+Def
