@@ -19,15 +19,14 @@ fi
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+A+Sg+Nom \
-            +A+Sg+Gen \
-            +A+Sg+Ill \
-            +A+Pl+Nom \
-            +A+Pl+Com \
-            +A+Attr"
+morf_codes="+A+Pos+Sg \
+            +A+Pos+Pl \
+            +A+Comp \
+            +A+Superl \
+            +A+Superl+Def"
 
 # Lexicon source file for lexicons and lemmas:
-source_file=src/morphology/stems/adjectives.lexc
+source_file=src/fst/stems/adjectives.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
 exception_lexicons="(flagK)"
