@@ -15,8 +15,8 @@ LEXICON v1
 +V+Inf: # ;
 +V+Prs:%>r # ;
 +V+Prt: # ;
-+V+PrfPrt: # ;
-+V+PrsPrt:%>nes # ;
++V+PrfPtc: # ;
++V+PrsPtc:%>nes # ;
 +V+Imp: # ;
 
 LEXICON v2

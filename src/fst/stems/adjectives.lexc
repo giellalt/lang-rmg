@@ -5,16 +5,9 @@
 LEXICON Adjectives
 !! **LEXICON @LEXNAME@** 
 
-latjo a1 "god" ; !!≈ * @CODE@
-sjukkar a2 "fin" ; !!≈ * @CODE@  "fin, pen. sjukkart fint, pent. sjukkre ~ sjukkra fine, pene" ;
-savo a1 "slik" ; !!≈ * @CODE@
-norsk a2 "norsk" ; !!≈ * @CODE@ (?)
-vavri a1 "annen" ; !!≈ * @CODE@
-vaver a2 "annen" ; !!≈ * @CODE@
+
 aven-dukkalo a1 "misunnelig " ; !!≈ * @CODE@
 baro a1 "stor" ;  !!≈ * @CODE@
-baro-kasjt m2 "stor-pinne" ;  !!≈ * @CODE@
-baro-kårko m1 "jul" ; !! all in all appr. 70 adjectives for now.
 basjtano a1 "streng; falsk, upålitelig " ;
 bengalo a1 "dum, gal, vill, ustyrlig " ;
 blavano a1 "blå" ;
@@ -22,9 +15,11 @@ buno a1 "flott, fin; kry, stolt" ;
 but a1 "mange; mye; ofte; veldig " ;
 dommelak a1 "sliten, trøtt " ;
 drabbrano a1 "religiøs" ; 
-drabbrano-hisjpa m2 "bedehus" ;
+dråvont a1 "tung, hard, vanskelig, sørgelig" ;
 dukkalo a1 "syk " ;
 duri a1 "lang" ; 
+fulanot a1 "skitten, sølete; ussel, elendig" ;
+helko a1 "hel, hele, all, alt, alle, hver" ; 
 hårta a1 "ekte, verdifull; frisk, glad, bra, fin" ;
 jengno a1 "gift" ;
 jujo a1 "rein" ;
@@ -32,58 +27,54 @@ kalo a1 "svart" ;
 kerja a1 "stygg, vond, dårlig, slem " ;
 kino a1 "trøtt, matt " ;
 kinto a1 "våt, blaut" ;
+kusj a1 "dyr, kostbar" ;
 langsto a1 "lang" ;
+latjo a1 "god" ; !!≈ * @CODE@
 leiano a1 "skamfull, flau" ;
+låsjano a1 "glad, kvikk, lystig, stolt" ;
 miak a1 "vond, smertefull" ;
 nevo a1 "ny" ;
 nevo-tjera a1 "nytrukket " ;
+norsk a2 "norsk" ; !!≈ * @CODE@ (?)
 nåsjlo a1 "dårlig; ille til mote, lei (for) " ;
+oppri a1 "opp, oppi, oppå; åpen" ;
+oppri-kadd a1 "avgnagd" ; 
 paksto a1 "feit, tjukk a" ;
 purrano a1 "gammal" ;
-purrano-dad m2 "bestefar" ; 
 purrano-dakri f1 "bestemor" ;
 pærlo a1 "hvit " ;
 rusjto a1 "sint" ;
 rusto a1 "sint" ;
 sano a1 "tynn, fin, grann" ;
+sass a1 "all, alt, alle; hver" ; 
+savo a1 "slik" ; !!≈ * @CODE@
 sigg a1 "rask, snar, fort; adv snart" ;
 sjukkalo a1 "sur" ; 
-sjukkalo-tudd m2 "surmelk, sur rømme" ;
+sjukkar a2 "fin" ; !!≈ * @CODE@  "fin, pen. sjukkart fint, pent. sjukkre ~ sjukkra fine, pene" ;
 såralo a1 "sterk; beisk" ;
 sårralo a1 "sterk; beisk" ;
 tastro a1 "tørr" ;
 tatto a1 "varm" ;
 telo a1 "tidlig " ;
 tikkno a1 "liten" ;
-tikkno-kasjt m2 "pinne" ; 
 tikkno-pani f1 "bekk" ;
-tikkno-pani m1 "bekk" ;
 tikkno-pani n "bekk" ;
 tjatjo a1 "sann, viss" ;
-tjavo m1 "barn, unge" ;
 tjavo-dukkalo a1 "barnsjuk (om kvinne som skal føde)" ; 
 tjavo-døy f1 "jordmor" ; 
-tjavo-leiktar m1 "barneleik" ; 
-tjavo-mengar m1 "jordmor = tjavo-gaje" ; 
 tjavo-vårdri f1 "barnevogn" ;
-tjulmano a1 "kald" ;
 tjulmano a1 "kald" ;
 tjåralo a1 "fattig" ;
 trasj a1 "redd, engstelig; skummel, spennende; rar; ekkel " ;
 tråmo a1 "vanskelig" ;
-tærno a1 "ung" ;
-tåso a1 "tørr = tåstro" ;
 tåsjo a1 "tørr = tåstro" ;
+tåso a1 "tørr = tåstro" ;
 tåstro a1 "tørr = tåso" ;
+tærno a1 "ung" ;
 umala a1 "uenig, uvenner " ;
 valmus a1 "ferdig" ;
-helko a1 "hel, hele, all, alt, alle, hver" ; 
-kusj a1 "dyr, kostbar" ;
-låsjano a1 "glad, kvikk, lystig, stolt" ;
-oppri a1 "opp, oppi, oppå; åpen" ;
-oppri-kadd a1 "avgnagd" ; 
-sass a1 "all, alt, alle; hver" ; 
-fulanot a1 "skitten, sølete; ussel, elendig" ;
-dråvont a1 "tung, hard, vanskelig, sørgelig" ;
+vaver a2 "annen" ; !!≈ * @CODE@
+vavri a1 "annen" ; !!≈ * @CODE@
+
 
 ! vim: set ft=xfst-lexc:

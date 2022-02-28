@@ -11,7 +11,7 @@ LEXICON a1
 +A+Pos+Sg:      #   ;
 +A+Pos+Pl:%>e # ;
 +A+Der/Adv+Adv:%>t # ;
-comp ;
++A: comp ;
 
 
 LEXICON a2

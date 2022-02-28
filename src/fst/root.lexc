@@ -54,7 +54,7 @@ Multichar_Symbols  !!≈ # Definitions for **@CODE@**
 !! Verb moods are:
  +Ind +Prs +Prt +Imprt !!≈ * **@CODE@**  hmm, no Ind marked...
 !! Other verb forms are
- +Inf +Neg +PrsPrc +PrfPrc !!≈ * **@CODE@** 
+ +Inf +Neg +PrsPtc +PrfPtc !!≈ * **@CODE@** 
 
 ! Abbreviated words are classified with:
  +ABBR +ACR !!≈ * **@CODE@** 
