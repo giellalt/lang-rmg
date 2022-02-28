@@ -37,7 +37,7 @@ Numerals are classified under:
 Verb moods are:
 * **+Ind +Prs +Prt +Imprt**  hmm, no Ind marked...
 Other verb forms are
-* **+Inf +Neg +PrsPrc +PrfPrc** 
+* **+Inf +Neg +PrsPtc +PrfPtc** 
 
 * **+ABBR +ACR** 
 * **+Symbol**  = independent symbols in the text stream, like £, €, ©
@@ -84,6 +84,8 @@ Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files: (still no such)
 
+* a2 for gaje - gajer
+
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -115,20 +117,20 @@ given the proper use of these flags.
 **LEXICON Root** is where it all begins.
 The word forms in Romany language start from the lexeme roots of basic
 word classes, or optionally from prefixes. The basic lexica are:
-Nouns ; 
-Verbs ; 
 Adjectives ; 
 Adverbs ; 
-Pronouns ; 
-Propernouns ; 
+Conjunctions ; 
+Interjections ; 
+Nouns ; 
 Numerals ; 
 Prefixes ; 
-Punctuation ; 
-Conjunctions ; 
-Subjunctions ; 
-Interjections ; 
 Prepositions ; 
+Pronouns ; 
+Propernouns ; 
+Punctuation ; 
+Subjunctions ; 
 Symbols ; 
+Verbs ; 
 
 * * *
 

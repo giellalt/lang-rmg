@@ -4,7 +4,6 @@ Here, we should use the nob file.
 The tags are added in the *affixes/propernouns.lexc* file.
 
 **LEXICON Propernouns** 
-
 * Norge prop-plc ;
 * India prop-plc ;
 

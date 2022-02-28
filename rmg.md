@@ -140,6 +140,7 @@ The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
   Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
 
+ * a2:0 for busjniar
 * %> ; this is the suffix boundary
 
 ## Sets
@@ -149,8 +150,6 @@ The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 * Cns = b c d f g h j k l m n p q r s t v w x z ð þ ; consonants
 
 ## Rules
-
-**RULE: Deleting stem-final e in front of vowel-initial suffix** =   
 
 **RULE: Deleting stem-internal a before r in bisyllabic stems** =   
 
@@ -199,7 +198,7 @@ Numerals are classified under:
 Verb moods are:
 * **+Ind +Prs +Prt +Imprt**  hmm, no Ind marked...
 Other verb forms are
-* **+Inf +Neg +PrsPrc +PrfPrc** 
+* **+Inf +Neg +PrsPtc +PrfPtc** 
 
 * **+ABBR +ACR** 
 * **+Symbol**  = independent symbols in the text stream, like £, €, ©
@@ -246,6 +245,8 @@ Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files: (still no such)
 
+* a2 for gaje - gajer
+
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -277,20 +278,20 @@ given the proper use of these flags.
 **LEXICON Root** is where it all begins.
 The word forms in Romany language start from the lexeme roots of basic
 word classes, or optionally from prefixes. The basic lexica are:
-Nouns ; 
-Verbs ; 
 Adjectives ; 
 Adverbs ; 
-Pronouns ; 
-Propernouns ; 
+Conjunctions ; 
+Interjections ; 
+Nouns ; 
 Numerals ; 
 Prefixes ; 
-Punctuation ; 
-Conjunctions ; 
-Subjunctions ; 
-Interjections ; 
 Prepositions ; 
+Pronouns ; 
+Propernouns ; 
+Punctuation ; 
+Subjunctions ; 
 Symbols ; 
+Verbs ; 
 
 * * *
 
@@ -303,16 +304,14 @@ Adjectives in the Traveller Romani language have two sblexica, *a1, a2*.
 
 **LEXICON Adjectives** 
 
-* latjo a1 "god" ;
-* sjukkar a2 "fin" ;  "fin, pen. sjukkart fint, pent. sjukkre ~ sjukkra fine, pene" ;
-* savo a1 "slik" ;
-* norsk a2 "norsk" ; (?)
-* vavri a1 "annen" ;
-* vaver a2 "annen" ;
 * aven-dukkalo a1 "misunnelig " ;
 * baro a1 "stor" ;
-* baro-kasjt m2 "stor-pinne" ;
-all in all appr. 70 adjectives for now.
+* latjo a1 "god" ;
+* norsk a2 "norsk" ; (?)
+* savo a1 "slik" ;
+* sjukkar a2 "fin" ;  "fin, pen. sjukkart fint, pent. sjukkre ~ sjukkra fine, pene" ;
+* vaver a2 "annen" ;
+* vavri a1 "annen" ;
 
 * * *
 
@@ -374,13 +373,14 @@ This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n
 
 **LEXICON Nouns** 
 
+* baro-kasjt m2 "stor-pinne" ;
+* busjni f1 "geit" ;
+* bæsj n "år" ;
+* danje m4 "tann" ;
+* gaje f2 "kvinne" ;
+* hisjpa m3 "hus" ;
 * tjavo m1 "gut" ;
 * trulsing m2 "dokke" ;
-* hisjpa m3 "hus" ;
-* danje m4 "tann" ;
-* busjni f1 "geit" ;
-* gaje f2 "kvinne" ;
-* bæsj n "år" ;
 
 * * *
 
@@ -462,7 +462,6 @@ Here, we should use the nob file.
 The tags are added in the *affixes/propernouns.lexc* file.
 
 **LEXICON Propernouns** 
-
 * Norge prop-plc ;
 * India prop-plc ;
 

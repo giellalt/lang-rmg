@@ -5,13 +5,14 @@ This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n
 
 **LEXICON Nouns** 
 
+* baro-kasjt m2 "stor-pinne" ;
+* busjni f1 "geit" ;
+* bæsj n "år" ;
+* danje m4 "tann" ;
+* gaje f2 "kvinne" ;
+* hisjpa m3 "hus" ;
 * tjavo m1 "gut" ;
 * trulsing m2 "dokke" ;
-* hisjpa m3 "hus" ;
-* danje m4 "tann" ;
-* busjni f1 "geit" ;
-* gaje f2 "kvinne" ;
-* bæsj n "år" ;
 
 * * *
 

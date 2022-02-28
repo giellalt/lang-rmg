@@ -9,6 +9,7 @@
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
   Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
 
+ * a2:0 for busjniar
 * %> ; this is the suffix boundary
 
 ## Sets
@@ -18,8 +19,6 @@
 * Cns = b c d f g h j k l m n p q r s t v w x z ð þ ; consonants
 
 ## Rules
-
-**RULE: Deleting stem-final e in front of vowel-initial suffix** =   
 
 **RULE: Deleting stem-internal a before r in bisyllabic stems** =   
 
