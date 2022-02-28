@@ -6,10 +6,11 @@
 Alphabet
  a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å  !!≈ * @CODE@
  á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç	    !!≈   @CODE@
-														    !!≈ * @CODE@
+										 				    !!≈ * @CODE@
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å  !!≈ * @CODE@
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð		    !!≈   @CODE@
 
+ a2:0 !!≈  * @CODE@ for busjniar
  %> ;  !!≈ * @CODE@ this is the suffix boundary
 
 !! ## Sets
@@ -23,9 +24,21 @@ Sets
 !! ## Rules
 Rules
 
-"Deleting stem-final e in front of vowel-initial suffix"
-!! **RULE: @RULENAME@** =   
- e:0 <=> _ %> Vow ;
+!"Deleting stem-final e in front of vowel-initial suffix"
+!!! **RULE: @RULENAME@** =   
+! e:0 <=> _ %> Vow ;
+
+"Delete suffix-initial e in vowel stems"
+e:0 <=> [i|o|a|e|[a|e] r] %> _ n ;
+
+"Delete stem-final vowel in front of plural -ar"
+Vx:0 <=> _ %> a ;
+     where Vx in (e a ) ;
+
+"Realise a2 as a in plural of i stems"
+a2:a <=> i %> _ ;
+
+
 
 "Deleting stem-internal a before r in bisyllabic stems"
 !! **RULE: @RULENAME@** =   

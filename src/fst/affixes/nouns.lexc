@@ -36,11 +36,12 @@ LEXICON mx
 +N: # ;
 
 LEXICON m1
+m2 ;
 !! **LEXICON @LEXNAME@** 
-+N+Msc+Sg+Indef: # ;
-+N+Msc+Sg+Def:%>n # ;
-+N+Msc+Pl+Indef:%>ar # ;
-+N+Msc+Pl+Def:%>ane # ;
+!+N+Msc+Sg+Indef: # ;
+!+N+Msc+Sg+Def:%>n # ;
+!+N+Msc+Pl+Indef:%>ar # ;
+!+N+Msc+Pl+Def:%>ane # ;
 
 LEXICON m1pl
 !! **LEXICON @LEXNAME@** pl only
@@ -55,18 +56,20 @@ LEXICON m2
 +N+Msc+Pl+Def:%>ane # ;
 
 LEXICON m3
+m2 ;
 !! **LEXICON @LEXNAME@**
-+N+Msc+Sg+Indef: # ;
-+N+Msc+Sg+Def:%>n # ;
-+N+Msc+Pl+Indef:%>r # ;
-+N+Msc+Pl+Def:%>ne # ;
+!+N+Msc+Sg+Indef: # ;
+!+N+Msc+Sg+Def:%>n # ;
+!+N+Msc+Pl+Indef:%>r # ;
+!+N+Msc+Pl+Def:%>ne # ;
 
 LEXICON m4
+m2 ;
 !! **LEXICON @LEXNAME@**
-+N+Msc+Sg+Indef: # ;
-+N+Msc+Sg+Def:%>n # ;
-+N+Msc+Pl+Indef:%>ar # ;
-+N+Msc+Pl+Def:%>ane # ;
+!+N+Msc+Sg+Indef: # ;
+!+N+Msc+Sg+Def:%>n # ;
+!+N+Msc+Pl+Indef:%>ar # ;
+!+N+Msc+Pl+Def:%>ane # ;
 
 !! ### Lexicons for feminine nouns
 
@@ -74,14 +77,14 @@ LEXICON f1
 !! **LEXICON @LEXNAME@**
 +N+Fem+Sg+Indef: # ;
 +N+Fem+Sg+Def:%>a # ;
-+N+Fem+Pl+Indef:%>ar # ;
++N+Fem+Pl+Indef:%>a2r # ;
 +N+Fem+Pl+Def:%>ane # ;
 
 LEXICON f2
 !! **LEXICON @LEXNAME@**
 +N+Fem+Sg+Indef: # ;
 +N+Fem+Sg+Def:%>a # ;
-+N+Fem+Pl+Indef:%>er # ;
++N+Fem+Pl+Indef:%>a2r # ;
 +N+Fem+Pl+Def:%>ane # ;
 
 !! ### Lexicons for neuter nouns

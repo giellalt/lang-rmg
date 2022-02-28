@@ -5,7 +5,6 @@
 
 LEXICON Propernouns
 !! **LEXICON @LEXNAME@** 
-
 Norge prop-plc ; !!≈ * @CODE@
 India prop-plc ; !!≈ * @CODE@
 T-Ford prop-obj ;

@@ -106,6 +106,7 @@ Multichar_Symbols  !!≈ # Definitions for **@CODE@**
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files: (still no such)
 
+a2 !!≈ * @CODE@ for gaje - gajer
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -139,20 +140,20 @@ LEXICON Root
 !! **LEXICON @LEXNAME@** is where it all begins.
 !! The word forms in Romany language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes. The basic lexica are:
-Nouns       ; !!≈ @CODE@ 
-Verbs       ; !!≈ @CODE@ 
 Adjectives  ; !!≈ @CODE@ 
 Adverbs     ; !!≈ @CODE@ 
-Pronouns    ; !!≈ @CODE@ 
-Propernouns ; !!≈ @CODE@ 
+Conjunctions ; !!≈ @CODE@ 
+Interjections ; !!≈ @CODE@ 
+Nouns       ; !!≈ @CODE@ 
 Numerals    ; !!≈ @CODE@ 
 Prefixes    ; !!≈ @CODE@ 
-Punctuation ; !!≈ @CODE@ 
-Conjunctions ; !!≈ @CODE@ 
-Subjunctions ; !!≈ @CODE@ 
-Interjections ; !!≈ @CODE@ 
 Prepositions ; !!≈ @CODE@ 
+Pronouns    ; !!≈ @CODE@ 
+Propernouns ; !!≈ @CODE@ 
+Punctuation ; !!≈ @CODE@ 
+Subjunctions ; !!≈ @CODE@ 
 Symbols     ; !!≈ @CODE@ 
+Verbs       ; !!≈ @CODE@ 
 
 
 ! vim: set ft=xfst-lexc:
