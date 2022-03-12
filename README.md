@@ -2,7 +2,7 @@ The Traveller Norwegian morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-rmg)](https://github.com/giellalt/lang-rmg/issues)
-[![Build Status](https://github.com/giellalt/lang-rmg/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-rmg/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-rmg/main/badge.svg)](https://github.com/giellalt/lang-rmg/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-rmg)](https://github.com/giellalt/lang-rmg/blob/main/LICENSE)
 
 This repository contains finite state source files for the Traveller Norwegian language,
