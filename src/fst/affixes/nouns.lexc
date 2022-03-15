@@ -37,7 +37,7 @@ LEXICON mx
 
 LEXICON m1
 m2 ;
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**  now points to m2, let us test this
 !+N+Msc+Sg+Indef: # ;
 !+N+Msc+Sg+Def:%>n # ;
 !+N+Msc+Pl+Indef:%>ar # ;
@@ -49,7 +49,7 @@ LEXICON m1pl
 +N+Msc+Pl+Def:%>ane # ;
 
 LEXICON m2
-!! **LEXICON @LEXNAME@**
+!! **LEXICON @LEXNAME@** is now the sole masculine lexicon, with suffixes -en, -ar, -ane. The adjustments of m1, m3, m4 suffixes are being taken care of by morphophonology.
 +N+Msc+Sg+Indef: # ;
 +N+Msc+Sg+Def:%>en # ;
 +N+Msc+Pl+Indef:%>ar # ;
@@ -57,7 +57,7 @@ LEXICON m2
 
 LEXICON m3
 m2 ;
-!! **LEXICON @LEXNAME@**
+!! **LEXICON @LEXNAME@** now points to m2, let us test this
 !+N+Msc+Sg+Indef: # ;
 !+N+Msc+Sg+Def:%>n # ;
 !+N+Msc+Pl+Indef:%>r # ;
@@ -65,7 +65,7 @@ m2 ;
 
 LEXICON m4
 m2 ;
-!! **LEXICON @LEXNAME@**
+!! **LEXICON @LEXNAME@** now points to m2, let us test this
 !+N+Msc+Sg+Indef: # ;
 !+N+Msc+Sg+Def:%>n # ;
 !+N+Msc+Pl+Indef:%>ar # ;
@@ -74,23 +74,24 @@ m2 ;
 !! ### Lexicons for feminine nouns
 
 LEXICON f1
-!! **LEXICON @LEXNAME@**
+!! **LEXICON @LEXNAME@** is now the sole lexicon, let us test this, -a, -a2r, -ane suffixes, and the variation handled in the morphophonology
 +N+Fem+Sg+Indef: # ;
 +N+Fem+Sg+Def:%>a # ;
 +N+Fem+Pl+Indef:%>a2r # ;
 +N+Fem+Pl+Def:%>ane # ;
 
 LEXICON f2
-!! **LEXICON @LEXNAME@**
-+N+Fem+Sg+Indef: # ;
-+N+Fem+Sg+Def:%>a # ;
-+N+Fem+Pl+Indef:%>a2r # ;
-+N+Fem+Pl+Def:%>ane # ;
+!! **LEXICON @LEXNAME@** now points to f1
+f1 ;
+! +N+Fem+Sg+Indef: # ;
+! +N+Fem+Sg+Def:%>a # ;
+! +N+Fem+Pl+Indef:%>a2r # ;
+! +N+Fem+Pl+Def:%>ane # ;
 
 !! ### Lexicons for neuter nouns
 
 LEXICON n
-!! **LEXICON @LEXNAME@**
+!! **LEXICON @LEXNAME@** is the sole n lexicon, suffixes -e, -Ø, -a, -ane.
 +N+Neu+Sg+Indef: # ;
 +N+Neu+Sg+Def:%>e # ;
 +N+Neu+Pl+Indef:%> # ;
