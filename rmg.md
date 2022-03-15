@@ -45,25 +45,25 @@ and should be kept.
 
 **LEXICON mx** for uninflected (for now)
 
-**LEXICON m1** 
+**LEXICON m1**  now points to m2, let us test this
 
 **LEXICON m1pl** pl only
 
-**LEXICON m2**
+**LEXICON m2** is now the sole masculine lexicon, with suffixes -en, -ar, -ane. The adjustments of m1, m3, m4 suffixes are being taken care of by morphophonology.
 
-**LEXICON m3**
+**LEXICON m3** now points to m2, let us test this
 
-**LEXICON m4**
+**LEXICON m4** now points to m2, let us test this
 
 ### Lexicons for feminine nouns
 
-**LEXICON f1**
+**LEXICON f1** is now the sole lexicon, let us test this, -a, -a2r, -ane suffixes, and the variation handled in the morphophonology
 
-**LEXICON f2**
+**LEXICON f2** now points to f1
 
 ### Lexicons for neuter nouns
 
-**LEXICON n**
+**LEXICON n** is the sole n lexicon, suffixes -e, -Ø, -a, -ane.
 
 * * *
 
