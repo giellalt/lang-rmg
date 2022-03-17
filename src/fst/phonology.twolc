@@ -28,8 +28,18 @@ Rules
 !!! **RULE: @RULENAME@** =   
 ! e:0 <=> _ %> Vow ;
 
-"Delete suffix-initial e in vowel stems"
-e:0 <=> [i|o|a|e|[a|e] r] %> _ n ;
+"Delete suffix-initial e in vowel stems and in bisyllabic -Vr stems"
+e:0 <=> [Cns|Vow Vow] [i|o|a|e]  %> _ n ;
+        Cns  [a|e] r %> _ n ;
+
+!!€ puia>en
+!!€ puia>0n
+
+!!€ grei>en
+!!€ grei>en
+
+!!€ budar>en
+!!€ budar>0n
 
 "Delete stem-final vowel in front of plural -ar"
 Vx:0 <=> _ %> a ;
