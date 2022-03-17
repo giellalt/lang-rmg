@@ -20,6 +20,15 @@
 
 ## Rules
 
+* *puia>en*
+* *puia>0n*
+
+* *grei>en*
+* *grei>en*
+
+* *budar>en*
+* *budar>0n*
+
 **RULE: Deleting stem-internal a before r in bisyllabic stems** =   
 
 * * *

@@ -151,6 +151,15 @@ The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 
 ## Rules
 
+* *puia>en*
+* *puia>0n*
+
+* *grei>en*
+* *grei>en*
+
+* *budar>en*
+* *budar>0n*
+
 **RULE: Deleting stem-internal a before r in bisyllabic stems** =   
 
 * * *
