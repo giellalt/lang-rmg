@@ -414,8 +414,8 @@ for generating all nuerals.
 **LEXICON TENS** contains 10, 20, .. 90.
 
 **LEXICON TENSsplit** splits 20, ... 90 into 20 vs 21, 22, ...
-num ; num ;  * @CODE* here the tens go to +Num: snes, trinn-dypansj, ..
--å- 1to9 ; -å- 1to9 ;   * @CODE* here the tens go to 1to9: snes-å-dy, trinn-dypansj-å-jikk, ..
+* @CODE* here the tens go to +Num: snes, trinn-dypansj, ..
+* @CODE* here the tens go to 1to9: snes-å-dy, trinn-dypansj-å-jikk, ..
 
 **LEXICON numeralcompounds** is a lexicon to be looked into.
 
