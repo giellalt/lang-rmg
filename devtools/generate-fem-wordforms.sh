@@ -19,16 +19,16 @@ fi
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+N+Msc+Sg+Indef \
-            +N+Msc+Sg+Def \
-            +N+Msc+Pl+Indef \
-            +N+Msc+Pl+Def"
+morf_codes="+N+Fem+Sg+Indef \
+            +N+Fem+Sg+Def \
+            +N+Fem+Pl+Indef \
+            +N+Fem+Pl+Def"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/stems/nouns.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
-exception_lexicons="(f1|f2|n1|n2)"
+exception_lexicons="(a1|a2|v1|v2|m1|m2|m3|f|f1|f2|adv)"
 
 # FST used for generation, MINUS suffix:
 generator_file=src/generator-gt-norm
