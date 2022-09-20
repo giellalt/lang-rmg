@@ -37,8 +37,6 @@ Documentation
 
 Documentation can be found at:
 
-- [In source documentation generated with github
-   pages](https://gilellalt.github.io/lang-rmg/)
 -   <https://giellalt.uit.no/lang/rmgdoc/index.html>
 -   <https://giellalt.uit.no/index.html>
 
