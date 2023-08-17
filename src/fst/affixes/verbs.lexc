@@ -5,16 +5,16 @@
 !! The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 
 
-LEXICON vaux
-!! **LEXICON @LEXNAME@** adds the tag  **++V+Ind**, this lexicon is probably not needed
-+V+Inf: # ;
+LEXICON ASJA
+!! **LEXICON @LEXNAME@** is adhoc while waiting for more info
++V+Ind+Prt: # ; ! All examples translate to "was", but dictionary says "vere" 
 
 
 LEXICON v1
 !! **LEXICON @LEXNAME@** 
 +V+Inf: # ;
-+V+Prs:%>r # ;
-+V+Prt: # ;
++V+Ind+Prs:%>r # ;
++V+Ind+Prt: # ;
 +V+PrfPtc: # ;
 +V+PrsPtc:%>nes # ;
 +V+Imp: # ;
@@ -22,8 +22,8 @@ LEXICON v1
 LEXICON v2
 !! **LEXICON @LEXNAME@** 
 +V+Inf: # ;
-+V+Prs:%>r # ;
-+V+Prt:%>dde # ;
++V+Ind+Prs:%>r # ;
++V+Ind+Prt:%>dde # ;
 +V+PrfPrt:%>dd # ;
 +V+PrsPrt:enes # ;
 +V+Imp: # ;
@@ -31,8 +31,8 @@ LEXICON v2
 LEXICON v3
 !! **LEXICON @LEXNAME@** 
 +V+Inf: # ;
-+V+Prs: # ;
-+V+Prt: # ;
++V+Ind+Prs: # ;
++V+Ind+Prt: # ;
 +V+PrfPrt: # ;
 +V+PrsPrt:%>enes # ;
 +V+Imp: # ;

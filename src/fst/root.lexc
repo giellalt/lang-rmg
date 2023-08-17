@@ -26,8 +26,12 @@ Multichar_Symbols  !!≈ # Definitions for **@CODE@**
 !! are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
+
+
+
 !! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈ * **@CODE@** 
+ +N +A +Adv +V                           !!≈ * **@CODE@** 
+ +IM                             !!≈ * **@CODE@** infinitive marker
  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈ * **@CODE@** 
 
 !! Gender: 
@@ -36,40 +40,84 @@ Multichar_Symbols  !!≈ # Definitions for **@CODE@**
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ * **@CODE@** 
 
-!! The Usage extents are marked using following tags:
- +Err/Orth   !!≈ * **@CODE@** 
- +Use/-Spell !!≈ * **@CODE@** 
-
 !! The nominals are inflected in the following (Case and) Number
  +Sg +Pl !!≈ * **@CODE@** 
  +Nom !!≈ * **@CODE@**  needed?
  +Gen !!≈ * **@CODE@**  needed?
  +Acc !!≈ * **@CODE@**  needed ?
++Def			      !!≈ * **@CODE@**
 
 !! The comparative forms are:
- +Comp +Superl !!≈ * **@CODE@** 
+
+ +Pos		!!≈ * **@CODE@**
+ +Comp 		!!≈ * **@CODE@**
+ +Superl 	!!≈ * **@CODE@** 
+ 
 !! Numerals are classified under:
  +Attr +Card !!≈ * **@CODE@** 
  +Ord !!≈ * **@CODE@** 
 !! Verb moods are:
  +Ind +Prs +Prt +Imprt !!≈ * **@CODE@**  hmm, no Ind marked...
+ +Imp			      !!≈ * **@CODE@** (fix Imp / Imprt)
+
 !! Other verb forms are
- +Inf +Neg +PrsPtc +PrfPtc !!≈ * **@CODE@** 
+ +Inf +Neg !!≈ * **@CODE@** 
+  +PrsPtc  !!≈ * **@CODE@** TODO fix Ptc vs. Prt
+ +PrfPtc  !!≈ * **@CODE@** 
++PrfPrt			      !!≈ * **@CODE@**
++PrsPrt			      !!≈ * **@CODE@**
 
 ! Abbreviated words are classified with:
  +ABBR +ACR !!≈ * **@CODE@** 
 +Symbol !!≈ * **@CODE@**  = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT !!≈ * **@CODE@** 
++CLBfinal		      !!≈ * **@CODE@**
+
 !! The verbs are syntactically split according to transitivity: (well, not yet)
  +TV +IV !!≈ * **@CODE@** 
 !! Special multiword units are analysed with:
  +Multi !!≈ * **@CODE@** 
+ +MWE			      !!≈ * **@CODE@**
+
+!! Numeral subgroups
+
++Arab			      !!≈ * **@CODE@**
++Rom			      !!≈ * **@CODE@**
++Coll			      !!≈ * **@CODE@**
+
+
 !! Non-dictionary words can be recognised with:
  +Guess !!≈ * **@CODE@** 
 
 !! Question and Focus particles:
  +Qst +Foc !!≈ * **@CODE@** 
+
+
+
+!! The Usage extents are marked using following tags:
+ +Err/Orth   !!≈ * **@CODE@** 
+ +Use/-Spell !!≈ * **@CODE@** 
+
++Err/Hyph		      !!≈ * **@CODE@**
++Err/Lex		      !!≈ * **@CODE@**
++Err/MissingSpace     !!≈ * **@CODE@**
++Err/SpaceCmp	      !!≈ * **@CODE@**
+
++Use/-PLX		      !!≈ * **@CODE@**
++Use/-PMatch	      !!≈ * **@CODE@**
++Use/Circ		      !!≈ * **@CODE@**
++Use/GC			      !!≈ * **@CODE@**
++Use/NG			      !!≈ * **@CODE@**
++Use/PMatch		      !!≈ * **@CODE@**
++Use/SpellNoSugg      !!≈ * **@CODE@**
+
+
+!! ## Paradigm choice
+
++v1				      !!≈ * **@CODE@**
++v2				      !!≈ * **@CODE@**
+
 
 
 !! Semantics are classified with (so far the 4 first only)
@@ -92,6 +140,37 @@ Multichar_Symbols  !!≈ # Definitions for **@CODE@**
  +Sem/Edu    !!≈ * **@CODE@** 
  +Sem/Veh    !!≈ * **@CODE@** 
  +Sem/Clth   !!≈ * **@CODE@** 
+
++Sem/Amount		      !!≈ * **@CODE@**
++Sem/Build-room	      !!≈ * **@CODE@**
++Sem/Cat		      !!≈ * **@CODE@**
++Sem/Curr		      !!≈ * **@CODE@**
++Sem/Date		      !!≈ * **@CODE@**
++Sem/Domain		      !!≈ * **@CODE@**
++Sem/Domain_Hum	      !!≈ * **@CODE@**
++Sem/Dummytag	      !!≈ * **@CODE@**
++Sem/Edu_Hum	      !!≈ * **@CODE@**
++Sem/Event		      !!≈ * **@CODE@**
++Sem/Food-med	      !!≈ * **@CODE@**
++Sem/Group_Hum	      !!≈ * **@CODE@**
++Sem/ID			      !!≈ * **@CODE@**
++Sem/Lang		      !!≈ * **@CODE@**
++Sem/Mat		      !!≈ * **@CODE@**
++Sem/Money		      !!≈ * **@CODE@**
++Sem/Obj-el		      !!≈ * **@CODE@**
++Sem/Obj-ling	      !!≈ * **@CODE@**
++Sem/Org_Prod-audio   !!≈ * **@CODE@**
++Sem/Org_Prod-vis     !!≈ * **@CODE@**
++Sem/Part		      !!≈ * **@CODE@**
++Sem/Prod-vis	      !!≈ * **@CODE@**
++Sem/Rule		      !!≈ * **@CODE@**
++Sem/Sign		      !!≈ * **@CODE@**
++Sem/State		      !!≈ * **@CODE@**
++Sem/State-sick	      !!≈ * **@CODE@**
++Sem/Substnc	      !!≈ * **@CODE@**
++Sem/Time-clock	      !!≈ * **@CODE@**
++Sem/Tool-it	      !!≈ * **@CODE@**
++Sem/Year		      !!≈ * **@CODE@**
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
@@ -135,6 +214,26 @@ a2 !!≈ * @CODE@ for gaje - gajer
 !! given the proper use of these flags.
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+
+!! ## Compound tags
+
++CmpNP/First	      !!≈ * **@CODE@**
++CmpNP/None		      !!≈ * **@CODE@**
+
+
+!! ## Language tags
+
++OLang/ENG		      !!≈ * **@CODE@**
++OLang/FIN		      !!≈ * **@CODE@**
++OLang/NNO		      !!≈ * **@CODE@**
++OLang/NOB		      !!≈ * **@CODE@**
++OLang/RUS		      !!≈ * **@CODE@**
++OLang/SMA		      !!≈ * **@CODE@**
++OLang/SME		      !!≈ * **@CODE@**
++OLang/SWE		      !!≈ * **@CODE@**
++OLang/UND		      !!≈ * **@CODE@**
+
+
 
 LEXICON Root
 !! **LEXICON @LEXNAME@** is where it all begins.

@@ -12,8 +12,6 @@ LEXICON adv
 LEXICON Adverbs
 !! **LEXICON @LEXNAME@** lists the adverbs themselves (as well as the restcategory, for now)
 alonom adv "aleine" ;  !!≈ * @CODE@
-Anna prop-fem ;
-asja vaux "være" ; 
 avri adv "ut, ute, utanfor" ; 
 bare adv ;
 
