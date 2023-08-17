@@ -115,7 +115,7 @@ The Traveller Romani language verbs inflect in tense and participle.
 The lexica v1, v2, v3 are taken from the grammar.
 The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 
-**LEXICON vaux** adds the tag  **++V+Ind**, this lexicon is probably not needed
+**LEXICON ASJA** is adhoc while waiting for more info
 
 **LEXICON v1** 
 
@@ -181,6 +181,7 @@ are presented in this system in terms of the following symbols.
 
 The parts-of-speech are:
 * **+N +A +Adv +V** 
+* **+IM** infinitive marker
 * **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num** 
 
 Gender: 
@@ -189,39 +190,78 @@ Gender:
 The parts of speech are further split up into:
 * **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef** 
 
-The Usage extents are marked using following tags:
-* **+Err/Orth** 
-* **+Use/-Spell** 
-
 The nominals are inflected in the following (Case and) Number
 * **+Sg +Pl** 
 * **+Nom**  needed?
 * **+Gen**  needed?
 * **+Acc**  needed ?
+* **+Def**
 
 The comparative forms are:
-* **+Comp +Superl** 
+
+* **+Pos**
+* **+Comp**
+* **+Superl** 
+
 Numerals are classified under:
 * **+Attr +Card** 
 * **+Ord** 
 Verb moods are:
 * **+Ind +Prs +Prt +Imprt**  hmm, no Ind marked...
+* **+Imp** (fix Imp / Imprt)
+
 Other verb forms are
-* **+Inf +Neg +PrsPtc +PrfPtc** 
+* **+Inf +Neg** 
+* **+PrsPtc** TODO fix Ptc vs. Prt
+* **+PrfPtc** 
+* **+PrfPrt**
+* **+PrsPrt**
 
 * **+ABBR +ACR** 
 * **+Symbol**  = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
 * **+CLB +PUNCT +LEFT +RIGHT** 
+* **+CLBfinal**
+
 The verbs are syntactically split according to transitivity: (well, not yet)
 * **+TV +IV** 
 Special multiword units are analysed with:
 * **+Multi** 
+* **+MWE**
+
+Numeral subgroups
+
+* **+Arab**
+* **+Rom**
+* **+Coll**
+
 Non-dictionary words can be recognised with:
 * **+Guess** 
 
 Question and Focus particles:
 * **+Qst +Foc** 
+
+The Usage extents are marked using following tags:
+* **+Err/Orth** 
+* **+Use/-Spell** 
+
+* **+Err/Hyph**
+* **+Err/Lex**
+* **+Err/MissingSpace**
+* **+Err/SpaceCmp**
+
+* **+Use/-PLX**
+* **+Use/-PMatch**
+* **+Use/Circ**
+* **+Use/GC**
+* **+Use/NG**
+* **+Use/PMatch**
+* **+Use/SpellNoSugg**
+
+## Paradigm choice
+
+* **+v1**
+* **+v2**
 
 Semantics are classified with (so far the 4 first only)
 * **+Sem/Mal** 
@@ -243,6 +283,37 @@ Semantics are classified with (so far the 4 first only)
 * **+Sem/Edu** 
 * **+Sem/Veh** 
 * **+Sem/Clth** 
+
+* **+Sem/Amount**
+* **+Sem/Build-room**
+* **+Sem/Cat**
+* **+Sem/Curr**
+* **+Sem/Date**
+* **+Sem/Domain**
+* **+Sem/Domain_Hum**
+* **+Sem/Dummytag**
+* **+Sem/Edu_Hum**
+* **+Sem/Event**
+* **+Sem/Food-med**
+* **+Sem/Group_Hum**
+* **+Sem/ID**
+* **+Sem/Lang**
+* **+Sem/Mat**
+* **+Sem/Money**
+* **+Sem/Obj-el**
+* **+Sem/Obj-ling**
+* **+Sem/Org_Prod-audio**
+* **+Sem/Org_Prod-vis**
+* **+Sem/Part**
+* **+Sem/Prod-vis**
+* **+Sem/Rule**
+* **+Sem/Sign**
+* **+Sem/State**
+* **+Sem/State-sick**
+* **+Sem/Substnc**
+* **+Sem/Time-clock**
+* **+Sem/Tool-it**
+* **+Sem/Year**
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -283,6 +354,23 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+## Compound tags
+
+* **+CmpNP/First**
+* **+CmpNP/None**
+
+## Language tags
+
+* **+OLang/ENG**
+* **+OLang/FIN**
+* **+OLang/NNO**
+* **+OLang/NOB**
+* **+OLang/RUS**
+* **+OLang/SMA**
+* **+OLang/SME**
+* **+OLang/SWE**
+* **+OLang/UND**
 
 **LEXICON Root** is where it all begins.
 The word forms in Romany language start from the lexeme roots of basic
@@ -483,6 +571,8 @@ The tags are added in the *affixes/propernouns.lexc* file.
 # Traveller Norwegian subjunction file
 
 **LEXICON cs** adds the tag  **+CS**
+
+**LEXICON im** adds the tag  **+IM**
 
 **LEXICON Subjunctions** lists the subjunctions (4 so far)
 

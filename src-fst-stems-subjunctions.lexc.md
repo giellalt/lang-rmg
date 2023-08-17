@@ -2,6 +2,8 @@
 
 **LEXICON cs** adds the tag  **+CS**
 
+**LEXICON im** adds the tag  **+IM**
+
 **LEXICON Subjunctions** lists the subjunctions (4 so far)
 
 * * *
