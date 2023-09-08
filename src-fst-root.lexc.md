@@ -87,6 +87,8 @@ The Usage extents are marked using following tags:
 * **+Use/NG**
 * **+Use/PMatch**
 * **+Use/SpellNoSugg**
+* **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
 ## Paradigm choice
 
