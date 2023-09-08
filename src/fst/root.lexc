@@ -111,6 +111,8 @@ Multichar_Symbols  !!≈ # Definitions for **@CODE@**
 +Use/NG			      !!≈ * **@CODE@**
 +Use/PMatch		      !!≈ * **@CODE@**
 +Use/SpellNoSugg      !!≈ * **@CODE@**
+ +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+ +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
 
 !! ## Paradigm choice
