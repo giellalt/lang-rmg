@@ -46,7 +46,7 @@ budar m1 "dør = dynta" ;
 bul m2 "rumpe" ;
 bul n "rumpe" ;
 buro m1 "bonde, person som ikke er av taterslekt " ;
-buro-tjer m1 "asdf" ;
+buro-tjer m1 "bondegard" ;
 busjni f1 "geit" ; !!≈ * @CODE@
 busjni-gavo m1 "geitebukk" ;
 båltus m2 "loddebolt" ;
@@ -246,6 +246,7 @@ sarrali-tav m2 "ulltråd" ;
 saster n "jern, blikk " ;
 savvaris n "bissel " ;
 senja m3 "hestesele" ;
+sirkusgran f1 "sirkusgran" ;
 sissar m1 "saks" ;
 sjero m1 "hode " ;
 sjonan m2 "låve, løe" ;
