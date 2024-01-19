@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>rmg</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Traveller Norwegian</title>
+    <title>Traveller Norwegian</title>
     <description>This is an fst-based speller for Traveller Norwegian. It is based
     on the normative subset of the morphological analyser for Traveller Norwegian.
     The source code can be found at:
