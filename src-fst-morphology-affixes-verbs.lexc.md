@@ -13,7 +13,7 @@ The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
