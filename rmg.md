@@ -1,6 +1,10 @@
-# Traveller Norwegian description 
+# Traveller Norwegian language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
 
 # Adjective inflection
 This file contains Traveller Romani adjective inflection.
@@ -20,6 +24,8 @@ marked as *+Pl* and *+Der/Adv+Adv*.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Noun inflection
 This file contains the noun inflection for Traveller Romani.
@@ -71,6 +77,8 @@ and should be kept.
 
 ---
 
+# src-fst-morphology-affixes-propernouns.lexc.md 
+
 # Proper noun inflection
 This file assigns tags to the Traveller Romani proper nouns 
 It dies contain any inflection.
@@ -88,6 +96,8 @@ It dies contain any inflection.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-symbols.lexc.md 
 
 
 # Symbol affixes
@@ -110,6 +120,8 @@ This is a language-independent file.
 
 ---
 
+# src-fst-morphology-affixes-verbs.lexc.md 
+
 # Traveller Norwegian verb inflection
 The Traveller Romani language verbs inflect in tense and participle.
 The lexica v1, v2, v3 are taken from the grammar.
@@ -128,6 +140,8 @@ The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 =================================== !
 # The Traveller Romani morphophonological/twolc rules file 
@@ -167,6 +181,8 @@ The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 # Traveller Romani morphological analyser                      
@@ -398,6 +414,8 @@ Verbs ;
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 # Adjectives
 Adjectives in the Traveller Romani language have two sblexica, *a1, a2*.
 
@@ -417,6 +435,8 @@ Adjectives in the Traveller Romani language have two sblexica, *a1, a2*.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adverbs.lexc.md 
 
 # Traveller Romani adverbs
 
@@ -438,6 +458,8 @@ stem files (one file for each part-of-speech).
 
 ---
 
+# src-fst-morphology-stems-conjunctions.lexc.md 
+
 
 # Traveler Norwegian conjunctions
 
@@ -450,6 +472,8 @@ stem files (one file for each part-of-speech).
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-interjections.lexc.md 
 
 
 # Traveller Norwegian interjection file
@@ -464,6 +488,8 @@ stem files (one file for each part-of-speech).
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 # Traveller Norwegian nouns
 This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n.
@@ -486,6 +512,8 @@ This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-numerals.lexc.md 
 
 # Traveller Norwegian numerals
 This is a list of whatever was found in the dictionary.
@@ -515,6 +543,8 @@ for generating all nuerals.
 
 ---
 
+# src-fst-morphology-stems-prefixes.lexc.md 
+
 # Prefixes
 Prefixes in the Traveller Romani language ...
 
@@ -527,6 +557,8 @@ The intention is to add eventual prefixes such as Norwegian *u-*.
 
 ---
 
+# src-fst-morphology-stems-prepositions.lexc.md 
+
 # Traveller Norwegian prepositions
 
 **LEXICON pr** adds the tag  **+Pr**
@@ -538,6 +570,8 @@ The intention is to add eventual prefixes such as Norwegian *u-*.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/prepositions.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/prepositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-pronouns.lexc.md 
 
 # Traveller Norwegian pronouns
 This is a list of pronouns in the Traveller Romani language.
@@ -555,6 +589,8 @@ when needed.
 
 ---
 
+# src-fst-morphology-stems-propernouns.lexc.md 
+
 # Traveller Romani propernouns
 
 Here, we should use the nob file.
@@ -570,6 +606,8 @@ The tags are added in the *affixes/propernouns.lexc* file.
 
 ---
 
+# src-fst-morphology-stems-subjunctions.lexc.md 
+
 # Traveller Norwegian subjunction file
 
 **LEXICON cs** adds the tag  **+CS**
@@ -583,6 +621,8 @@ The tags are added in the *affixes/propernouns.lexc* file.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/subjunctions.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/subjunctions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 # Traveller Norwegian verbs
 This is the list of verbs in the Traveller Romani language.
@@ -610,6 +650,8 @@ This is the list of verbs in the Traveller Romani language.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -778,6 +820,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Traveller Norwegian are read out, e.g.
@@ -798,6 +842,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 % komma% :,      Root ;
@@ -811,6 +857,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
 # Tokeniser for rmg
 
@@ -875,6 +923,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+
 # Grammar checker tokenisation for rmg
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -938,6 +988,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -999,6 +1051,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-rmg/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

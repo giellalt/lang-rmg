@@ -15,6 +15,3 @@ stem files (one file for each part-of-speech).
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
-
----
-

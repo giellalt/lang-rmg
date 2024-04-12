@@ -15,6 +15,3 @@ Adjectives in the Traveller Romani language have two sblexica, *a1, a2*.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
-
----
-
