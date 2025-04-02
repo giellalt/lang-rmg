@@ -504,7 +504,10 @@ stem files (one file for each part-of-speech).
 # src-fst-morphology-stems-nouns.lexc.md 
 
 # Traveller Norwegian nouns
-This is the noun stem file. Nouns in the Traveller Romani are divided in m, f, n.
+
+This is the noun stem file for
+Traveller Romani (romani rakkripa). Nouns in the Traveller Romani are
+divided in m, f, n.
 
 **TODO** Conflate m1-m4.
 
