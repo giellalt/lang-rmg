@@ -77,6 +77,20 @@ and should be kept.
 
 ---
 
+# src-fst-morphology-affixes-prefixes.lexc.md 
+
+# Prefixes
+Prefixes in the Traveller Romani language ...
+
+Nothing has been done on this, it is a dummy file.
+The intention is to add eventual prefixes such as Norwegian *u-*.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prefixes.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/affixes/prefixes.lexc)</small>
+
+---
+
 # src-fst-morphology-affixes-propernouns.lexc.md 
 
 # Proper noun inflection
@@ -555,20 +569,6 @@ for generating all nuerals.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
-
----
-
-# src-fst-morphology-stems-prefixes.lexc.md 
-
-# Prefixes
-Prefixes in the Traveller Romani language ...
-
-Nothing has been done on this, it is a dummy file.
-The intention is to add eventual prefixes such as Norwegian *u-*.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-rmg/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
 
