@@ -4,9 +4,9 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
-# Adjective inflection
+## Adjective inflection
 This file contains Traveller Romani adjective inflection.
 
 **TODO!** the grammar lists *-e* and *-t* forms.
@@ -25,9 +25,9 @@ marked as *+Pl* and *+Der/Adv+Adv*.
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Noun inflection
+## Noun inflection
 This file contains the noun inflection for Traveller Romani.
 The nouns inflect in number and definiteness
 
@@ -35,9 +35,9 @@ The nouns inflect in number and definiteness
 differences handled in twolc. *f1, f2* and *n* have different suffixes
 and should be kept.
 
-## The lexicons
+### The lexicons
 
-### Lexicons pointing to other lexicons
+#### Lexicons pointing to other lexicons
 
 **LEXICON f1m2** split in two
 
@@ -47,7 +47,7 @@ and should be kept.
 
 **LEXICON pl** with no gender info, just gives *+N+Pl*
 
-### Lexicons for masculine nouns
+#### Lexicons for masculine nouns
 
 **LEXICON mx** for uninflected (for now)
 
@@ -61,13 +61,13 @@ and should be kept.
 
 **LEXICON m4** now points to m2, let us test this
 
-### Lexicons for feminine nouns
+#### Lexicons for feminine nouns
 
 **LEXICON f1** is now the sole lexicon, let us test this, -a, -a2r, -ane suffixes, and the variation handled in the morphophonology
 
 **LEXICON f2** now points to f1
 
-### Lexicons for neuter nouns
+#### Lexicons for neuter nouns
 
 **LEXICON n** is the sole n lexicon, suffixes -e, -Ø, -a, -ane.
 
@@ -77,9 +77,9 @@ and should be kept.
 
 ---
 
-# src-fst-morphology-affixes-prefixes.lexc.md 
+## src-fst-morphology-affixes-prefixes.lexc.md 
 
-# Prefixes
+## Prefixes
 Prefixes in the Traveller Romani language ...
 
 Nothing has been done on this, it is a dummy file.
@@ -91,9 +91,9 @@ The intention is to add eventual prefixes such as Norwegian *u-*.
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
-# Proper noun inflection
+## Proper noun inflection
 This file assigns tags to the Traveller Romani proper nouns 
 It dies contain any inflection.
 
@@ -111,10 +111,10 @@ It dies contain any inflection.
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 This is a language-independent file.
 
@@ -134,9 +134,9 @@ This is a language-independent file.
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# Traveller Norwegian verb inflection
+## Traveller Norwegian verb inflection
 The Traveller Romani language verbs inflect in tense and participle.
 The lexica v1, v2, v3 are taken from the grammar.
 The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
@@ -155,13 +155,13 @@ The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
 =================================== !
-# The Traveller Romani morphophonological/twolc rules file 
+## The Traveller Romani morphophonological/twolc rules file 
 =================================== !
 
-## Alphabet
+### Alphabet
 * a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
   á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
 * 
@@ -171,13 +171,13 @@ The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
  * a2:0 for busjniar
 * %> ; this is the suffix boundary
 
-## Sets
+### Sets
 
 * Vow = a e i o u y æ ø å basic vowels
 * á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ; these just in case
 * Cns = b c d f g h j k l m n p q r s t v w x z ð þ ; consonants
 
-## Rules
+### Rules
 
 * *puia>en*
 * *puia>0n*
@@ -196,15 +196,15 @@ The distinction lies in the past tense suffix (null for v1 vs. dde for v2).
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Traveller Romani morphological analyser                      
+## Traveller Romani morphological analyser                      
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Traveller Romani
 
-# Definitions for **Multichar_Symbols** 
+## Definitions for **Multichar_Symbols** 
 
-## Analysis symbols
+### Analysis symbols
 The morphological analyses of wordforms for Traveller Romani
 are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -290,7 +290,7 @@ The Usage extents are marked using following tags:
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
-## Paradigm choice
+### Paradigm choice
 
 * **+v1**
 * **+v2**
@@ -359,7 +359,7 @@ symbols in the lexicon files: (still no such)
 
 * a2 for gaje - gajer
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -399,12 +399,12 @@ given the proper use of these flags.
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
-## Compound tags
+### Compound tags
 
 * **+CmpNP/First**
 * **+CmpNP/None**
 
-## Language tags
+### Language tags
 
 * **+OLang/ENG**
 * **+OLang/FIN**
@@ -440,9 +440,9 @@ Verbs ;
 
 ---
 
-# src-fst-morphology-stems-adjectives.lexc.md 
+## src-fst-morphology-stems-adjectives.lexc.md 
 
-# Adjectives
+## Adjectives
 Adjectives in the Traveller Romani language have two sblexica, *a1, a2*.
 
 **LEXICON Adjectives** 
@@ -462,9 +462,9 @@ Adjectives in the Traveller Romani language have two sblexica, *a1, a2*.
 
 ---
 
-# src-fst-morphology-stems-adverbs.lexc.md 
+## src-fst-morphology-stems-adverbs.lexc.md 
 
-# Traveller Romani adverbs
+## Traveller Romani adverbs
 
 For now, this file contains not only adverbs (they should stay), 
 but also a rest category of things to be moved to their respective
@@ -484,10 +484,10 @@ stem files (one file for each part-of-speech).
 
 ---
 
-# src-fst-morphology-stems-conjunctions.lexc.md 
+## src-fst-morphology-stems-conjunctions.lexc.md 
 
 
-# Traveler Norwegian conjunctions
+## Traveler Norwegian conjunctions
 
 **LEXICON cc** adds the tag  **+CC**
 
@@ -499,10 +499,10 @@ stem files (one file for each part-of-speech).
 
 ---
 
-# src-fst-morphology-stems-interjections.lexc.md 
+## src-fst-morphology-stems-interjections.lexc.md 
 
 
-# Traveller Norwegian interjection file
+## Traveller Norwegian interjection file
 
 **LEXICON ij** adds the tag  **+Interj**
 
@@ -515,9 +515,9 @@ stem files (one file for each part-of-speech).
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
-# Traveller Norwegian nouns
+## Traveller Norwegian nouns
 
 This is the noun stem file for
 Traveller Romani (romani rakkripa). Nouns in the Traveller Romani are
@@ -542,9 +542,9 @@ divided in m, f, n.
 
 ---
 
-# src-fst-morphology-stems-numerals.lexc.md 
+## src-fst-morphology-stems-numerals.lexc.md 
 
-# Traveller Norwegian numerals
+## Traveller Norwegian numerals
 This is a list of whatever was found in the dictionary.
 
 The file dontains a first draft of a systematic setup
@@ -572,9 +572,9 @@ for generating all nuerals.
 
 ---
 
-# src-fst-morphology-stems-prepositions.lexc.md 
+## src-fst-morphology-stems-prepositions.lexc.md 
 
-# Traveller Norwegian prepositions
+## Traveller Norwegian prepositions
 
 **LEXICON pr** adds the tag  **+Pr**
 
@@ -586,9 +586,9 @@ for generating all nuerals.
 
 ---
 
-# src-fst-morphology-stems-pronouns.lexc.md 
+## src-fst-morphology-stems-pronouns.lexc.md 
 
-# Traveller Norwegian pronouns
+## Traveller Norwegian pronouns
 This is a list of pronouns in the Traveller Romani language.
 
 **TODO** The lis should be completed and given morphosyntactic tags
@@ -604,9 +604,9 @@ when needed.
 
 ---
 
-# src-fst-morphology-stems-propernouns.lexc.md 
+## src-fst-morphology-stems-propernouns.lexc.md 
 
-# Traveller Romani propernouns
+## Traveller Romani propernouns
 
 Here, we should use the nob file.
 The tags are added in the *affixes/propernouns.lexc* file.
@@ -621,9 +621,9 @@ The tags are added in the *affixes/propernouns.lexc* file.
 
 ---
 
-# src-fst-morphology-stems-subjunctions.lexc.md 
+## src-fst-morphology-stems-subjunctions.lexc.md 
 
-# Traveller Norwegian subjunction file
+## Traveller Norwegian subjunction file
 
 **LEXICON cs** adds the tag  **+CS**
 
@@ -637,9 +637,9 @@ The tags are added in the *affixes/propernouns.lexc* file.
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
-# Traveller Norwegian verbs
+## Traveller Norwegian verbs
 This is the list of verbs in the Traveller Romani language.
 
 **LEXICON Verbs**
@@ -666,7 +666,7 @@ This is the list of verbs in the Traveller Romani language.
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -835,7 +835,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -857,7 +857,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -873,9 +873,9 @@ For example:
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for rmg
+## Tokeniser for rmg
 
 Usage:
 ```
@@ -919,7 +919,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -938,9 +938,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for rmg
+## Grammar checker tokenisation for rmg
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -1003,9 +1003,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
