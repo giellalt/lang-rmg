@@ -24,7 +24,7 @@ version = "0.1.0"
 name = "Traveller Norwegian"
 version = "0.1.0"
 
-[package.tts-text-proc]
+[package.tts-textproc]
 name = "Traveller Norwegian"
 version = "0.1.0"
 
